@@ -133,6 +133,10 @@
       }
     }
 
+    & .mr-80 {
+      margin-right: 80px;
+    }
+
     & .dropdown {
       width: 128px;
       margin-right: 28px;
@@ -172,16 +176,26 @@
       & .dropdown-menu {
         border: none;
         border-radius: 0;
-        top: 12px !important;
+        min-width: 145px !important;
+        top: -17px !important;
+        padding-top: 20px;
         left: 0;
         z-index: 10;
         font-size: 15px;
         color: #6e6b6b;
-        text-align: center;
         background-color: #141414;
+        border-radius: 0px 0px 15px 15px;
+        position: relative;
+        z-index: -1;
 
         & .dropdown-item {
+          padding: 7px 17px;
           color: $text-color;
+
+          &:hover {
+            background-color: #141414;
+            color: $white-color;
+          }
         }
       }
     }
@@ -240,6 +254,7 @@
   & .overlay-nav-box {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 260px;
 
     & .overlay-nav {
       flex: 0 0 86%;
@@ -336,6 +351,63 @@
           &:hover {
             color: $yellow-color;
           }
+        }
+      }
+    }
+  }
+
+  & .contacts-box {
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+
+    & .contacts-img {
+      width: 100%;
+      min-height: 124px;
+      border-radius: 25px;
+
+      & img {
+        display: block;
+        min-width: 100%;
+        height: 100%;
+        border-radius: 25px;
+      }
+
+      &::before {
+        display: block;
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.4);
+        border-radius: 25px;
+      }
+    }
+
+    & .contacts-info-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: absolute;
+      left: 30px;
+      right: 30px;
+      top: 50%;
+      transform: translateY(-50%);
+
+      & .contacts-info {
+        color: $white-color;
+        font-size: 19px;
+        font-weight: $Regular;
+        line-height: 25px;
+
+        & .title {
+          font-weight: $Medium;
+        }
+
+        & span {
+          display: block;
         }
       }
     }

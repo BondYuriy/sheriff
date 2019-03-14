@@ -6860,6 +6860,7 @@ a.text-dark:focus {
 
 * :not(g):not(svg) {
 	transition: 0.5s;
+	-webkit-font-smoothing: antialiased;
 }
 
 body {
@@ -6882,6 +6883,24 @@ a {
 
 a:hover {
 	text-decoration: none;
+}
+
+.btn-yellow {
+	padding: 0;
+	display: inline-block;
+	width: 202px;
+	height: 50px;
+	border-radius: 39px;
+	background-image: linear-gradient(180deg, #ffe600 0%, #ffe600 100%);
+	color: #000;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 50px;
+}
+
+.btn-yellow:hover {
+	opacity: 0.8;
+	color: #000;
 }
 
 .header {
@@ -7009,6 +7028,10 @@ a:hover {
 	fill: #ffe600;
 }
 
+.header .nav-box .mr-80 {
+	margin-right: 80px;
+}
+
 .header .nav-box .dropdown {
 	width: 128px;
 	margin-right: 28px;
@@ -7049,17 +7072,27 @@ a:hover {
 .header .nav-box .dropdown .dropdown-menu {
 	border: none;
 	border-radius: 0;
-	top: 12px !important;
+	min-width: 145px !important;
+	top: -17px !important;
+	padding-top: 20px;
 	left: 0;
 	z-index: 10;
 	font-size: 15px;
 	color: #6e6b6b;
-	text-align: center;
 	background-color: #141414;
+	border-radius: 0px 0px 15px 15px;
+	position: relative;
+	z-index: -1;
 }
 
 .header .nav-box .dropdown .dropdown-menu .dropdown-item {
+	padding: 7px 17px;
 	color: #898989;
+}
+
+.header .nav-box .dropdown .dropdown-menu .dropdown-item:hover {
+	background-color: #141414;
+	color: #fff;
 }
 
 /*styling open close button*/
@@ -7116,6 +7149,7 @@ a:hover {
 .overlay .overlay-nav-box {
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 260px;
 }
 
 .overlay .overlay-nav-box .overlay-nav {
@@ -7215,6 +7249,64 @@ a:hover {
 
 .overlay .overlay-nav-box .overlay-nav-aside .nav-aside-item a:hover {
 	color: #ffe600;
+}
+
+.overlay .contacts-box {
+	position: relative;
+	border-radius: 25px;
+	overflow: hidden;
+}
+
+.overlay .contacts-box .contacts-img {
+	width: 100%;
+	min-height: 124px;
+	border-radius: 25px;
+}
+
+.overlay .contacts-box .contacts-img img {
+	display: block;
+	min-width: 100%;
+	height: 100%;
+	border-radius: 25px;
+}
+
+.overlay .contacts-box .contacts-img::before {
+	display: block;
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 25px;
+}
+
+.overlay .contacts-box .contacts-info-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	left: 30px;
+	right: 30px;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.overlay .contacts-box .contacts-info-box .contacts-info {
+	color: #fff;
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 25px;
+}
+
+.overlay .contacts-box .contacts-info-box .contacts-info .title {
+	font-weight: 500;
+}
+
+.overlay .contacts-box .contacts-info-box .contacts-info span {
+	display: block;
 }
 
 .wrapper {

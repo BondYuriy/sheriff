@@ -227,22 +227,25 @@ new WOW().init();
 
 $(document).ready(function() {
   $(".button a").click(function() {
+    $(".nav-box nav").fadeToggle(200);
+    $(".header-options").toggleClass("mr-80");
+    $(".dropdown").fadeToggle(200);
     $(".overlay").fadeToggle(200);
     $(this)
       .toggleClass("btn-open")
       .toggleClass("btn-close");
   });
 });
+
 $(".overlay").on("click", function() {
   $(".overlay").fadeToggle(200);
   $(".button a")
     .toggleClass("btn-open")
     .toggleClass("btn-close");
+  $(".dropdown").fadeToggle(200);
+  $(".header-options").toggleClass("mr-80");
+  $(".nav-box nav").fadeToggle(200);
   open = false;
 });
-
-//===========================================
-
-$(".dropdown-toggle").dropdown("toggle");
 
 //===========================================
