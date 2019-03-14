@@ -66,6 +66,14 @@ gulp.task("js", () => {
     .pipe(server.stream());
 });
 
+gulp.task("video", () => {
+  gulp
+    .src(["./src/video/video.mp4"])
+    .pipe(gulp.dest("./build/video"))
+    // Говорим browser-sync о том что пора перезагрузить барузер так как файл изменился
+    .pipe(server.stream());
+});
+
 // Создаем таск для оптимизации картинок
 gulp.task("images", () => {
   // Берем все картинки из папки img
@@ -105,6 +113,7 @@ gulp.task("watch", () => {
   gulp.watch("./src/img/**/*.*", ["webp", "img"]);
   // Следим за изменениями js и вызываем таск 'js' на каждом изменении
   gulp.watch("./src/js/**/*.js*", ["js"]);
+  gulp.watch("./src/video/video.mp4", ["video"]);
 });
 
 // Таск создания и запуска веб-сервера
@@ -132,7 +141,7 @@ gulp.task("del:build", () => {
 // Таск который 1 раз собирает все статические файлы
 // Запускается из корня проекта командой npm run build
 gulp.task("build", function(done) {
-  sequence("del:build", "images", "fonts", "css", "html", "js", done);
+  sequence("del:build", "images", "fonts", "css", "html", "js", "video", done);
 });
 
 // Главный таск для разработки, сначала удаляет папку build,
