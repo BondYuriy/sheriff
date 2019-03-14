@@ -1,0 +1,39 @@
+.article {
+  font-size: 15px;
+
+  & h2 {
+    color: $section-color;
+    font-size: $h2;
+    font-weight: $bold;
+    margin-bottom: 22px;
+  }
+
+  & .subtitle {
+    margin-bottom: 36px;
+
+    & strong {
+      font-weight: $Medium;
+    }
+  }
+
+  & .article-link {
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
+    color: $info-color;
+    font-size: 15px;
+    font-weight: $Medium;
+
+    & .article-link-icon {
+      width: 36px;
+      height: 36px;
+      margin-right: 10px;
+
+      & img {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

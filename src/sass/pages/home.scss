@@ -78,3 +78,59 @@
     }
   }
 }
+
+.advantage,
+.advantage-2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 0 90px 0;
+
+  & .advantage-info {
+    flex: 0 0 48%;
+  }
+
+  & .advantage-img {
+    flex: 0 0 48%;
+    position: relative;
+
+    & .round-background {
+      width: 428px;
+      height: 428px;
+      border-radius: 50%;
+      background-color: #ffe600;
+      position: absolute;
+      right: 40px;
+      top: -60px;
+      z-index: -1;
+    }
+
+    & img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.advantage-2 {
+  align-items: flex-end;
+
+  & .advantage-img .round-background {
+    right: 87px;
+    top: -130px;
+  }
+
+  & .advantage-info .article .img-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+
+    & img {
+      flex: 0 0 40%;
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+}
