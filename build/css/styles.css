@@ -1,84 +1,36 @@
 @font-face {
 	font-family: "Gotham Pro";
-	src: url("GothamPro-Light.eot");
-	src: local("Gotham Pro Light"), local("GothamPro-Light"), url("GothamPro-Light.eot?#iefix") format("embedded-opentype"), url("GothamPro-Light.woff") format("woff"), url("GothamPro-Light.ttf") format("truetype");
+	src: url("../../fonts/GothamPro-Light.eot");
+	src: url("../../fonts/GothamPro-Light.eot?#iefix") format("embedded-opentype"), url("../../fonts/GothamPro-Light.woff") format("woff"), url("../../fonts/GothamPro-Light.ttf") format("truetype");
 	font-weight: 300;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "Gotham Pro";
-	src: url("GothamPro.eot");
-	src: local("Gotham Pro"), local("GothamPro"), url("GothamPro.eot?#iefix") format("embedded-opentype"), url("GothamPro.woff") format("woff"), url("GothamPro.ttf") format("truetype");
+	src: url("../../fonts/GothamPro.eot");
+	src: url("../../fonts/GothamPro.eot?#iefix") format("embedded-opentype"), url("../../fonts/GothamPro.woff") format("woff"), url("../../fonts/GothamPro.ttf") format("truetype");
 	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "Gotham Pro";
-	src: url("GothamPro-Medium.eot");
-	src: local("Gotham Pro Medium"), local("GothamPro-Medium"), url("GothamPro-Medium.eot?#iefix") format("embedded-opentype"), url("GothamPro-Medium.woff") format("woff"), url("GothamPro-Medium.ttf") format("truetype");
+	src: url("../../fonts/GothamPro-Medium.eot");
+	src: url("../../fonts/GothamPro-Medium.eot?#iefix") format("embedded-opentype"), url("../../fonts/GothamPro-Medium.woff") format("woff"), url("../../fonts/GothamPro-Medium.ttf") format("truetype");
 	font-weight: 500;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "Gotham Pro";
-	src: url("GothamPro-Bold.eot");
-	src: local("Gotham Pro Bold"), local("GothamPro-Bold"), url("GothamPro-Bold.eot?#iefix") format("embedded-opentype"), url("GothamPro-Bold.woff") format("woff"), url("GothamPro-Bold.ttf") format("truetype");
+	src: url("../../fonts/GothamPro-Bold.eot");
+	src: url("../../fonts/GothamPro-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/GothamPro-Bold.woff") format("woff"), url("../../fonts/GothamPro-Bold.ttf") format("truetype");
 	font-weight: 700;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Gotham Pro";
-	src: url("GothamPro-Black.eot");
-	src: local("Gotham Pro Black"), local("GothamPro-Black"), url("GothamPro-Black.eot?#iefix") format("embedded-opentype"), url("GothamPro-Black.woff") format("woff"), url("GothamPro-Black.ttf") format("truetype");
-	font-weight: 900;
 	font-style: normal;
 }
 
 /*===== Italic =====*/
-
-@font-face {
-	font-family: "Gotham Pro";
-	src: url("GothamPro-BlackItalic.eot");
-	src: local("Gotham Pro Black Italic"), local("GothamPro-BlackItalic"), url("GothamPro-BlackItalic.eot?#iefix") format("embedded-opentype"), url("GothamPro-BlackItalic.woff") format("woff"), url("GothamPro-BlackItalic.ttf") format("truetype");
-	font-weight: 900;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: "Gotham Pro";
-	src: url("GothamPro-LightItalic.eot");
-	src: local("Gotham Pro Light Italic"), local("GothamPro-LightItalic"), url("GothamPro-LightItalic.eot?#iefix") format("embedded-opentype"), url("GothamPro-LightItalic.woff") format("woff"), url("GothamPro-LightItalic.ttf") format("truetype");
-	font-weight: 300;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: "Gotham Pro";
-	src: url("GothamPro-MediumItalic.eot");
-	src: local("Gotham Pro Medium Italic"), local("GothamPro-MediumItalic"), url("GothamPro-MediumItalic.eot?#iefix") format("embedded-opentype"), url("GothamPro-MediumItalic.woff") format("woff"), url("GothamPro-MediumItalic.ttf") format("truetype");
-	font-weight: 500;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: "Gotham Pro";
-	src: url("GothamPro-BoldItalic.eot");
-	src: local("Gotham Pro Bold Italic"), local("GothamPro-BoldItalic"), url("GothamPro-BoldItalic.eot?#iefix") format("embedded-opentype"), url("GothamPro-BoldItalic.woff") format("woff"), url("GothamPro-BoldItalic.ttf") format("truetype");
-	font-weight: 700;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: "Gotham Pro";
-	src: url("GothamPro-Italic.eot");
-	src: local("Gotham Pro Italic"), local("GothamPro-Italic"), url("GothamPro-Italic.eot?#iefix") format("embedded-opentype"), url("GothamPro-Italic.woff") format("woff"), url("GothamPro-Italic.ttf") format("truetype");
-	font-weight: 400;
-	font-style: italic;
-}
 
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
@@ -6908,6 +6860,7 @@ a:hover {
 }
 
 .btn-yellow-bulk {
+	outline: none;
 	padding: 0;
 	box-shadow: none;
 	display: inline-block;
@@ -6920,6 +6873,7 @@ a:hover {
 	color: #000;
 	font-size: 15px;
 	font-weight: 700;
+	text-align: center;
 	line-height: 49px;
 	transition: 0s;
 }
@@ -6936,13 +6890,93 @@ a:hover {
 	transition: 0.3s;
 }
 
-.video-box video {
-	display: block;
-	width: 100%;
-	height: auto;
+.btn-yellow-small {
+	outline: none;
+	padding: 0;
+	box-shadow: none;
+	display: inline-block;
+	width: 156px;
+	height: 40px;
+	box-shadow: 0 4px 0 #ceba00;
+	border-radius: 39px;
+	border: 1px solid #ffe600;
+	background-image: linear-gradient(180deg, #ffe600 0%, #e6cf00 100%);
+	color: #000;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 40px;
+	text-align: center;
+	transition: 0s;
 }
 
-.video-box img {
+.btn-yellow-small:hover {
+	color: #000;
+	background-image: linear-gradient(180deg, #e6cf00 0%, #ffe600 100%);
+}
+
+.btn-yellow-small:active {
+	-webkit-transform: translateY(4px);
+	transform: translateY(4px);
+	box-shadow: none;
+	transition: 0.3s;
+}
+
+.btn-stiker {
+	display: inline-block;
+	height: 34px;
+	border-radius: 5px;
+	padding: 0 12px;
+	line-height: 34px;
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.stiker-stock {
+	color: #fff;
+	background-color: #fa5f60;
+}
+
+.stiker-stock:hover {
+	color: #fff;
+	opacity: 0.8;
+}
+
+.stiker-news {
+	color: #fff;
+	background-color: #ffe600;
+}
+
+.stiker-news:hover {
+	color: #fff;
+	opacity: 0.8;
+}
+
+.stiker-info {
+	color: #141414;
+	background-color: #efefef;
+}
+
+.btn-transparent {
+	padding: 0;
+	display: inline-block;
+	width: 156px;
+	height: 40px;
+	border-radius: 40px;
+	border: 2px solid #ffe600;
+	color: #d8c300;
+	font-size: 11px;
+	font-weight: 500;
+	line-height: 36px;
+	text-align: center;
+}
+
+.btn-transparent:hover {
+	color: #fff;
+	background-color: #ffe600;
+}
+
+.video-box video {
 	display: block;
 	width: 100%;
 	height: auto;
@@ -7044,6 +7078,316 @@ a:hover {
 	font-size: 18px;
 	font-weight: 700;
 	margin-bottom: 35px;
+}
+
+.feedbeck-form-wrapper {
+	background-color: #454545;
+}
+
+.feedbeck-form-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 40px 0;
+}
+
+.feedbeck-form-box .feedbeck-form-info {
+	flex: 0 0 30%;
+	color: #fff;
+}
+
+.feedbeck-form-box .feedbeck-form-info p {
+	margin: 0;
+}
+
+.feedbeck-form-box .feedbeck-form-info p strong {
+	font-weight: 500;
+}
+
+.feedbeck-form-box form {
+	flex: 0 0 70%;
+}
+
+.feedbeck-form-box form input[type="text"] {
+	border: 0;
+	width: 246px;
+	height: 48px;
+	border-radius: 20px;
+	padding: 0 10px;
+	text-align: center;
+	color: #0f0f0f;
+	font-size: 15px;
+	border: 3px solid rgba(0, 0, 0, 0);
+	margin-right: 11px;
+}
+
+.feedbeck-form-box form input[type="text"]::-webkit-input-placeholder {
+	color: #898989;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 50px;
+}
+
+.feedbeck-form-box form input[type="text"]::-ms-input-placeholder {
+	color: #898989;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 50px;
+}
+
+.feedbeck-form-box form input[type="text"]::placeholder {
+	color: #898989;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 50px;
+}
+
+.feedbeck-form-box form input[type="text"]:focus {
+	outline: none;
+	border: 0;
+	border: 3px solid #ffe600;
+}
+
+.category-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 55px 0;
+}
+
+.category-title .category-title-img {
+	flex: 0 0 77px;
+	height: 74px;
+	margin-right: 20px;
+}
+
+.category-title .category-title-img img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.category-title h3 {
+	margin: 0;
+	color: #151515;
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.category-title h3 strong {
+	font-weight: 700;
+}
+
+.stock {
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+	margin-bottom: 30px;
+}
+
+.stock:last-child {
+	margin-bottom: 0;
+}
+
+.stock:hover {
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.stock .stock-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.stock .stock-info .stock-info-img {
+	flex: 0 0 32%;
+	height: 265px;
+	overflow: hidden;
+}
+
+.stock .stock-info .stock-info-img img {
+	display: block;
+	min-width: 100%;
+	height: 100%;
+}
+
+.stock .stock-info .stock-info-box {
+	flex: 0 0 68%;
+	height: 265px;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 55px 0 28px;
+}
+
+.stock .stock-info .stock-info-box .stock-info-content {
+	flex: 0 0 65%;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.stock .stock-info .stock-info-box .stock-info-content .stikers-box {
+	margin-bottom: 30px;
+}
+
+.stock .stock-info .stock-info-box .stock-info-content .stikers-box .stiker-stock {
+	margin-right: 7px;
+}
+
+.stock .stock-info .stock-info-box .stock-info-content h4 {
+	max-height: 44px;
+	color: #141414;
+	font-size: 19px;
+	font-weight: 400;
+	overflow: hidden;
+}
+
+.stock .stock-info .stock-info-box .stock-info-content p {
+	height: 114px;
+	margin: 0;
+	overflow: hidden;
+}
+
+.stock .stock-info .stock-info-box .stock-info-btns {
+	flex: 0 0 23%;
+	text-align: center;
+}
+
+.stock .stock-info .stock-info-box .stock-info-btns a {
+	margin-bottom: 18px;
+}
+
+.stock .stock-advantage {
+	background-color: #fafafa;
+	padding: 26px 45px;
+}
+
+.stock .stock-advantage .title {
+	color: #141414;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.stock .stock-advantage ul {
+	display: flex;
+	align-items: center;
+}
+
+.stock .stock-advantage ul li {
+	flex: 0 0 27%;
+	display: flex;
+	align-items: center;
+	color: #141414;
+	margin-right: 20px;
+}
+
+.stock .stock-advantage ul li:last-child {
+	margin-right: 20px;
+}
+
+.stock .stock-advantage ul li::before {
+	display: block;
+	content: "";
+	flex: 0 0 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #ffe600;
+	margin-right: 20px;
+}
+
+.news {
+	display: flex;
+	justify-content: space-between;
+}
+
+.news .news-aside {
+	flex: 0 0 32%;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+}
+
+.news .news-aside:hover {
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.news .news-aside .news-img {
+	height: 220px;
+	overflow: hidden;
+}
+
+.news .news-aside .news-img img {
+	display: block;
+	min-width: 100%;
+	height: 100%;
+}
+
+.news .news-aside .news-article {
+	padding: 16px;
+}
+
+.news .news-aside .news-article .stikers-box {
+	margin-bottom: 20px;
+}
+
+.news .news-aside .news-article .stikers-box .stiker-news {
+	margin-right: 10px;
+}
+
+.news .news-aside .news-article h4 {
+	height: 60px;
+	color: #0f0f0f;
+	font-size: 17px;
+	font-weight: 400;
+	margin-bottom: 25px;
+	overflow: hidden;
+}
+
+.news .news-aside .news-article p {
+	height: 76px;
+	font-size: 13px;
+	margin-bottom: 25px;
+	overflow: hidden;
+}
+
+.news .news-list {
+	flex: 0 0 65.5%;
+}
+
+.news .news-list .news-item {
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+	padding: 17px;
+	margin-bottom: 23px;
+}
+
+.news .news-list .news-item:last-child {
+	margin-bottom: 0;
+}
+
+.news .news-list .news-item:hover {
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.news .news-list .news-item .stikers-box {
+	margin-bottom: 20px;
+}
+
+.news .news-list .news-item .stikers-box .stiker-news {
+	margin-right: 10px;
+}
+
+.news .news-list .news-item h4 {
+	height: 20px;
+	color: #0f0f0f;
+	font-size: 17px;
+	font-weight: 400;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.news .news-list .news-item p {
+	margin: 0;
+	height: 38px;
+	font-size: 13px;
+	overflow: hidden;
 }
 
 .header {

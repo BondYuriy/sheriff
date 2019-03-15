@@ -21,6 +21,7 @@
 }
 
 .btn-yellow-bulk {
+  outline: none;
   padding: 0;
   box-shadow: none;
   display: inline-block;
@@ -33,6 +34,7 @@
   color: $black-color;
   font-size: 15px;
   font-weight: $bold;
+  text-align: center;
   line-height: 49px;
   transition: 0s;
 
@@ -45,5 +47,90 @@
     transform: translateY(4px);
     box-shadow: none;
     transition: 0.3s;
+  }
+}
+
+.btn-yellow-small {
+  outline: none;
+  padding: 0;
+  box-shadow: none;
+  display: inline-block;
+  width: 156px;
+  height: 40px;
+  box-shadow: 0 4px 0 #ceba00;
+  border-radius: 39px;
+  border: 1px solid $yellow-color;
+  background-image: linear-gradient(180deg, #ffe600 0%, #e6cf00 100%);
+  color: $black-color;
+  font-size: 15px;
+  font-weight: $bold;
+  line-height: 40px;
+  text-align: center;
+  transition: 0s;
+
+  &:hover {
+    color: $black-color;
+    background-image: linear-gradient(180deg, #e6cf00 0%, #ffe600 100%);
+  }
+
+  &:active {
+    transform: translateY(4px);
+    box-shadow: none;
+    transition: 0.3s;
+  }
+}
+
+.btn-stiker {
+  display: inline-block;
+  height: 34px;
+  border-radius: 5px;
+  padding: 0 12px;
+  line-height: 34px;
+  font-size: 13px;
+  font-weight: $bold;
+  text-transform: uppercase;
+}
+
+.stiker-stock {
+  color: $white-color;
+  background-color: $red-color;
+
+  &:hover {
+    color: $white-color;
+    opacity: 0.8;
+  }
+}
+
+.stiker-news {
+  color: $white-color;
+  background-color: $yellow-color;
+
+  &:hover {
+    color: $white-color;
+    opacity: 0.8;
+  }
+}
+
+.stiker-info {
+  color: $info-color;
+  background-color: #efefef;
+}
+
+.btn-transparent {
+  padding: 0;
+  display: inline-block;
+  width: 156px;
+  height: 40px;
+  border-radius: 40px;
+  border: 2px solid $yellow-color;
+  color: #d8c300;
+  font-size: 11px;
+  font-weight: $Medium;
+  line-height: 36px;
+  text-align: center;
+
+  &:hover {
+    color: $white-color;
+    background-color: $yellow-color;
   }
 }
