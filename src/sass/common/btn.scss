@@ -37,13 +37,13 @@
   transition: 0s;
 
   &:hover {
-    box-shadow: none;
     color: $black-color;
-    transform: translateY(4px);
-    transition: 0.7s;
+    background-image: linear-gradient(180deg, #e6cf00 0%, #ffe600 100%);
   }
 
-  &:focus {
+  &:active {
+    transform: translateY(4px);
     box-shadow: none;
+    transition: 0.3s;
   }
 }

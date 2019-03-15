@@ -6925,24 +6925,30 @@ a:hover {
 }
 
 .btn-yellow-bulk:hover {
-	box-shadow: none;
 	color: #000;
+	background-image: linear-gradient(180deg, #e6cf00 0%, #ffe600 100%);
+}
+
+.btn-yellow-bulk:active {
 	-webkit-transform: translateY(4px);
 	transform: translateY(4px);
-	transition: 0.7s;
-}
-
-.btn-yellow-bulk:focus {
 	box-shadow: none;
+	transition: 0.3s;
 }
 
-.video video {
+.video-box video {
 	display: block;
 	width: 100%;
 	height: auto;
 }
 
-.video::before {
+.video-box img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.video-box::before {
 	display: block;
 	content: "";
 	background-color: rgba(10, 10, 10, 0.49);
@@ -7448,6 +7454,10 @@ a:hover {
 
 .wrapper {
 	overflow: hidden;
+}
+
+.header-main {
+	position: relative;
 }
 
 .header-main .header-main-info {
