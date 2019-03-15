@@ -6848,6 +6848,7 @@ a:hover {
 	font-size: 15px;
 	font-weight: 700;
 	line-height: 50px;
+	text-align: center;
 }
 
 .btn-yellow:hover {
@@ -6876,6 +6877,7 @@ a:hover {
 	text-align: center;
 	line-height: 49px;
 	transition: 0s;
+	text-align: center;
 }
 
 .btn-yellow-bulk:hover {
@@ -6907,6 +6909,7 @@ a:hover {
 	line-height: 40px;
 	text-align: center;
 	transition: 0s;
+	text-align: center;
 }
 
 .btn-yellow-small:hover {
@@ -6930,6 +6933,7 @@ a:hover {
 	font-size: 13px;
 	font-weight: 700;
 	text-transform: uppercase;
+	text-align: center;
 }
 
 .stiker-stock {
@@ -7388,6 +7392,129 @@ a:hover {
 	height: 38px;
 	font-size: 13px;
 	overflow: hidden;
+}
+
+.data-box {
+	position: relative;
+	padding-bottom: 140px;
+}
+
+.data-box .data-background {
+	height: 483px;
+	overflow: hidden;
+	border-radius: 25px;
+	position: relative;
+}
+
+.data-box .data-background::before {
+	display: block;
+	content: "";
+	background-color: rgba(62, 62, 62, 0.77);
+	border-radius: 25px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.data-box .data-background img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.data-box .record {
+	width: 100%;
+	position: absolute;
+	top: 15px;
+	text-align: center;
+}
+
+.data-box .record h3 {
+	color: #fff;
+	font-size: 25px;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+
+.data-box .record .record-list {
+	margin-bottom: 45px;
+}
+
+.data-box .record .record-list ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.data-box .record .record-list ul li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #fff;
+	margin-right: 130px;
+}
+
+.data-box .record .record-list ul li:last-child {
+	margin-right: 0;
+}
+
+.data-box .record .record-list ul li::before {
+	display: block;
+	content: "";
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	box-shadow: 0 3px 6px rgba(255, 230, 0, 0.4);
+	background-color: #ffe600;
+	margin-bottom: 12px;
+}
+
+.data-box .record .record-list ul li .totals {
+	font-size: 29px;
+	font-weight: 700;
+}
+
+.data-box .record .feedbeck-form-box {
+	width: 50%;
+	flex-direction: column;
+	padding-left: 20px;
+}
+
+.data-box .record .feedbeck-form-box .feedbeck-form-info {
+	margin-bottom: 23px;
+}
+
+.data-box .record .feedbeck-form-box .btn-yellow-bulk {
+	margin-top: 19px;
+}
+
+.data-box .record .data-img {
+	position: absolute;
+	bottom: 0;
+	right: 20px;
+}
+
+.data-box .maps-img {
+	height: 120px;
+	border-radius: 0 0 25px 25px;
+	position: absolute;
+	bottom: 40px;
+	overflow: hidden;
+	z-index: -1;
+}
+
+.data-box .maps-img img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.data-box .btn-yellow {
+	position: absolute;
+	right: 35px;
+	bottom: 67px;
 }
 
 .header {

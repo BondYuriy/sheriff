@@ -9,6 +9,7 @@
   font-size: 15px;
   font-weight: $bold;
   line-height: 50px;
+  text-align: center;
 
   &:hover {
     opacity: 0.8;
@@ -37,6 +38,7 @@
   text-align: center;
   line-height: 49px;
   transition: 0s;
+  text-align: center;
 
   &:hover {
     color: $black-color;
@@ -67,6 +69,7 @@
   line-height: 40px;
   text-align: center;
   transition: 0s;
+  text-align: center;
 
   &:hover {
     color: $black-color;
@@ -89,6 +92,7 @@
   font-size: 13px;
   font-weight: $bold;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .stiker-stock {
