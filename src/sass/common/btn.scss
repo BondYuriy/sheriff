@@ -132,9 +132,48 @@
   font-weight: $Medium;
   line-height: 36px;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0);
 
   &:hover {
     color: $white-color;
     background-color: $yellow-color;
+  }
+}
+
+.btn-gray {
+  padding: 0;
+  display: inline-block;
+  width: 202px;
+  height: 50px;
+  border-radius: 39px;
+  background-color: #2e2d2d;
+  color: $white-color;
+  font-size: 15px;
+  font-weight: $bold;
+  text-align: center;
+  line-height: 50px;
+
+  &:hover {
+    opacity: 0.8;
+    color: $white-color;
+  }
+}
+
+.btn-gray-transparent {
+  padding: 0;
+  display: inline-block;
+  width: 118px;
+  height: 34px;
+  border-radius: 10px;
+  border: 1px solid $text-color;
+  color: $text-color;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: center;
+
+  &:hover {
+    border: 1px solid $white-color;
+    color: $white-color;
   }
 }

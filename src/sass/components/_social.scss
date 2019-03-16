@@ -1,33 +1,45 @@
-.social ul {
-  display: flex;
-  align-items: center;
+.social {
+  margin: auto;
 
-  & li {
-    margin-right: 15px;
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    &:last-child {
-      margin-right: 0;
-    }
+    li {
+      & .fa {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background-color: #333333;
 
-    & .fa {
-      display: inline-block;
-      width: 30px;
-      height: 30px;
-
-      & svg {
-        display: block;
-        width: 100%;
-        height: 100%;
-        fill: $no-active;
+        & svg {
+          display: block;
+          width: 100%;
+          height: 100%;
+          fill: #606060;
+        }
       }
-    }
 
-    & .fa-linkedin svg:hover {
-      fill: #0077b5;
-    }
+      & .fa-facebook {
+        margin-right: 40px;
 
-    & .fa-github svg:hover {
-      fill: $active;
+        &:hover {
+          background-color: #3b5999;
+        }
+      }
+
+      & .fa-instagram {
+        margin-right: 40px;
+
+        &:hover {
+          background-color: #e4405f;
+        }
+      }
+
+      & .fa-youtube:hover {
+        background-color: #cd201f;
+      }
     }
   }
 }
