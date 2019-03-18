@@ -1,9 +1,4 @@
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: 143px;
+.header-home {
   background-image: linear-gradient(
     180deg,
     rgba(0, 0, 0, 0.4) 0%,
@@ -11,6 +6,18 @@
     rgba(0, 0, 0, 0) 100%,
     rgba(0, 0, 0, 0) 100%
   );
+}
+
+.header-black {
+  background-color: #0a0a0a;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 143px;
   padding: 0 2%;
   position: fixed;
   z-index: 10;

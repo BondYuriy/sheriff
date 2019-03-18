@@ -68,7 +68,7 @@ gulp.task("js", () => {
 
 gulp.task("video", () => {
   gulp
-    .src(["./src/video/video.mp4"])
+    .src(["./src/video/sheriff.mp4"])
     .pipe(gulp.dest("./build/video"))
     // Говорим browser-sync о том что пора перезагрузить барузер так как файл изменился
     .pipe(server.stream());
@@ -113,7 +113,7 @@ gulp.task("watch", () => {
   gulp.watch("./src/img/**/*.*", ["webp", "img"]);
   // Следим за изменениями js и вызываем таск 'js' на каждом изменении
   gulp.watch("./src/js/**/*.js*", ["js"]);
-  gulp.watch("./src/video/video.mp4", ["video"]);
+  gulp.watch("./src/video/sheriff.mp4", ["video"]);
 });
 
 // Таск создания и запуска веб-сервера

@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="20" viewBox="0 0 15 20"><defs><path id="mtj4a" d="M388 1541.019c0-9.527 7.723-17.25 17.25-17.25 9.527 0 17.25 7.723 17.25 17.25 0 9.527-7.723 17.25-17.25 17.25-9.527 0-17.25-7.723-17.25-17.25z"/><path id="mtj4b" d="M414.172 1541.019l-13.086 8.922v-17.844z"/><path id="mtj4c" d="M401.681 1533.223v15.593l11.436-7.797zm-.595 17.313a.594.594 0 0 1-.595-.595v-17.844a.594.594 0 0 1 .93-.492l13.087 8.923a.596.596 0 0 1 0 .982l-13.087 8.923a.596.596 0 0 1-.335.103z"/></defs><g><g transform="translate(-400 -1531)"><g><use fill="#ffe600" xlink:href="#mtj4a"/></g><g><g><use fill="#fff" xlink:href="#mtj4b"/></g><g><use fill="#fff" xlink:href="#mtj4c"/></g></g></g></g></svg>
+<svg id="play-button" xmlns="http://www.w3.org/2000/svg" width="34.5" height="34.5" viewBox="0 0 34.5 34.5">
+  <circle id="Ellipse_9" data-name="Ellipse 9" cx="17.25" cy="17.25" r="17.25" fill="#ffe600"/>
+  <g id="Group_47" data-name="Group 47" transform="translate(12.491 7.733)">
+    <path id="Path_42" data-name="Path 42" d="M35.086,22.922,22,31.845V14Z" transform="translate(-21.405 -13.405)" fill="#fff"/>
+    <path id="Path_43" data-name="Path 43" d="M21.595,32.035A.6.6,0,0,1,21,31.44V13.595a.6.6,0,0,1,.93-.491l13.086,8.922a.595.595,0,0,1,0,.983L21.93,31.931A.6.6,0,0,1,21.595,32.035Zm.595-17.314V30.314l11.436-7.8Z" transform="translate(-21 -13)" fill="#fff"/>
+  </g>
+</svg>

@@ -7277,12 +7277,22 @@ a:hover {
 	margin-right: 7px;
 }
 
-.stock .stock-info .stock-info-box .stock-info-content h4 {
+.stock .stock-info .stock-info-box .stock-info-content .title-link {
+	display: block;
+	transition: 0;
+}
+
+.stock .stock-info .stock-info-box .stock-info-content .title-link h4 {
 	max-height: 44px;
 	color: #141414;
 	font-size: 19px;
 	font-weight: 400;
 	overflow: hidden;
+}
+
+.stock .stock-info .stock-info-box .stock-info-content .title-link:hover h4 {
+	color: #000;
+	font-weight: 500;
 }
 
 .stock .stock-info .stock-info-box .stock-info-content p {
@@ -7375,13 +7385,22 @@ a:hover {
 	margin-right: 10px;
 }
 
-.news .news-aside .news-article h4 {
+.news .news-aside .news-article .title-link {
+	display: block;
+}
+
+.news .news-aside .news-article .title-link h4 {
 	height: 60px;
 	color: #0f0f0f;
 	font-size: 17px;
 	font-weight: 400;
 	margin-bottom: 25px;
 	overflow: hidden;
+}
+
+.news .news-aside .news-article .title-link:hover h4 {
+	color: #000;
+	font-weight: 500;
 }
 
 .news .news-aside .news-article p {
@@ -7417,13 +7436,22 @@ a:hover {
 	margin-right: 10px;
 }
 
-.news .news-list .news-item h4 {
+.news .news-list .news-item .title-link {
+	display: block;
+}
+
+.news .news-list .news-item .title-link h4 {
 	height: 20px;
 	color: #0f0f0f;
 	font-size: 17px;
 	font-weight: 400;
 	margin-bottom: 20px;
 	overflow: hidden;
+}
+
+.news .news-list .news-item .title-link:hover h4 {
+	color: #000;
+	font-weight: 500;
 }
 
 .news .news-list .news-item p {
@@ -7461,6 +7489,9 @@ a:hover {
 	display: block;
 	width: 100%;
 	height: 100%;
+	border-radius: 25px;
+	-webkit-filter: blur(10px);
+	filter: blur(10px);
 }
 
 .data-box .record {
@@ -7621,13 +7652,153 @@ a:hover {
 	background-color: #cd201f;
 }
 
+.breadcrumb-wrapper {
+	background-color: #fafafa;
+}
+
+.breadcrumb {
+	background-color: #fafafa;
+	padding: 160px 0 20px 0;
+	height: 46px;
+}
+
+.breadcrumb .breadcrumb-item {
+	margin-right: 10px;
+}
+
+.breadcrumb .breadcrumb-item:last-child {
+	margin-right: 0;
+}
+
+.breadcrumb .breadcrumb-item a {
+	color: #050505;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.breadcrumb .breadcrumb-item::before {
+	display: inline-block;
+	content: "";
+	width: 11px;
+	height: 11px;
+	border-radius: 50%;
+	background-color: #ffe600;
+	margin-right: 19px;
+}
+
+.breadcrumb .breadcrumb-item:first-child::before {
+	display: none;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+	content: "";
+}
+
+.stock-noactive {
+	overflow: hidden;
+}
+
+.stock-noactive .stock-noactive-list {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 53px;
+}
+
+.stock-noactive .stock-noactive-list .stock-noactive-item {
+	flex: 0 0 32%;
+	position: relative;
+	margin-right: 2%;
+	margin-bottom: 27px;
+	overflow: hidden;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+}
+
+.stock-noactive .stock-noactive-list .stock-noactive-item:hover {
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.stock-noactive .stock-noactive-list .stock-noactive-item:nth-child(3n + 3) {
+	margin-right: 0;
+}
+
+.stock-noactive .stock-noactive-list .stock-noactive-item:nth-last-child(-n + 3) {
+	margin-bottom: 0;
+}
+
+.stock-noactive .stock-noactive-list .stock-noactive-item .stock-noactive-img {
+	width: 100%;
+	height: 220px;
+}
+
+.stock-noactive .stock-noactive-list .stock-noactive-item .stock-noactive-img img {
+	display: block;
+	min-width: 100%;
+	height: 100%;
+}
+
+.stock-noactive .stock-noactive-list .stock-noactive-article {
+	padding: 19px 15px 30px 15px;
+}
+
+.stock-noactive .stock-noactive-list .stock-noactive-article .stikers-box {
+	position: absolute;
+	left: 15px;
+	top: 170px;
+	padding: 0 10px;
+	height: 34px;
+	border-radius: 5px;
+	background-color: #fa5f60;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 34px;
+}
+
+.stock-noactive .stock-noactive-list .stock-noactive-article .title-link {
+	display: block;
+}
+
+.stock-noactive .stock-noactive-list .stock-noactive-article .title-link h4 {
+	height: 60px;
+	color: #0f0f0f;
+	font-size: 17px;
+	font-weight: 400;
+	margin-bottom: 25px;
+	overflow: hidden;
+}
+
+.stock-noactive .stock-noactive-list .stock-noactive-article .title-link:hover h4 {
+	color: #000;
+	font-weight: 500;
+}
+
+.stock-noactive .stock-noactive-list .stock-noactive-article p {
+	height: 76px;
+	font-size: 13px;
+	margin-bottom: 0;
+	overflow: hidden;
+}
+
+.stock-noactive .btn-transparent {
+	display: block;
+	margin: auto;
+}
+
+.header-home {
+	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.15) 41%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
+}
+
+.header-black {
+	background-color: #0a0a0a;
+}
+
 .header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
 	height: 143px;
-	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.15) 41%, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0) 100%);
 	padding: 0 2%;
 	position: fixed;
 	z-index: 10;

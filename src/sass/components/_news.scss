@@ -32,13 +32,22 @@
         }
       }
 
-      & h4 {
-        height: 60px;
-        color: $title-color;
-        font-size: 17px;
-        font-weight: $Regular;
-        margin-bottom: 25px;
-        overflow: hidden;
+      & .title-link {
+        display: block;
+
+        & h4 {
+          height: 60px;
+          color: $title-color;
+          font-size: 17px;
+          font-weight: $Regular;
+          margin-bottom: 25px;
+          overflow: hidden;
+        }
+
+        &:hover h4 {
+          color: $black-color;
+          font-weight: $Medium;
+        }
       }
 
       & p {
@@ -74,13 +83,22 @@
         }
       }
 
-      & h4 {
-        height: 20px;
-        color: $title-color;
-        font-size: 17px;
-        font-weight: $Regular;
-        margin-bottom: 20px;
-        overflow: hidden;
+      & .title-link {
+        display: block;
+
+        & h4 {
+          height: 20px;
+          color: $title-color;
+          font-size: 17px;
+          font-weight: $Regular;
+          margin-bottom: 20px;
+          overflow: hidden;
+        }
+
+        &:hover h4 {
+          color: $black-color;
+          font-weight: $Medium;
+        }
       }
 
       & p {
