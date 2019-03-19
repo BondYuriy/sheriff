@@ -251,7 +251,13 @@
         </div>
         <div class="header-main-info">
           <h1>ШЕРИФ ЭТО:<strong>ОХРАНЯТЬ И ЗАЩИЩАТЬ</strong></h1>
-          <a class="btn-yellow-bulk" href="#">ЗАКАЗАТЬ</a>
+          <a
+            href="#"
+            class="btn-yellow-bulk"
+            data-toggle="modal"
+            data-target="#order"
+            >ЗАКАЗАТЬ</a
+          >
         </div>
         <div class="extra-nav">
           <div class="nav-list">
@@ -328,9 +334,7 @@
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <div
-                class="advantage-list"
-              >
+              <div class="advantage-list">
                 <div class="list-item">
                   <div class="list-item-img">
                     <img src="img/police-car.jpg" alt="icon" />
@@ -506,7 +510,9 @@
                         <span>Не ограничено</span>
                       </div>
                     </div>
-                    <a class="title-link" href="#"><h4>Социальный проект: Вас ограбили?</h4></a>
+                    <a class="title-link" href="#"
+                      ><h4>Социальный проект: Вас ограбили?</h4></a
+                    >
                     <p>
                       Случилась беда, и вы или ваши друзья стали жертвами
                       ограбления, потерявши веру в защищенность жилья? Каждый
@@ -555,7 +561,9 @@
                         <span>Не ограничено</span>
                       </div>
                     </div>
-                    <a class="title-link" href="#"><h4>Безопасность — лучший подарок!</h4></a>
+                    <a class="title-link" href="#"
+                      ><h4>Безопасность — лучший подарок!</h4></a
+                    >
                     <p>
                       Подарите безопасность — подключите именинника к
                       сигнализации, и его имущество точно никогда не станет
@@ -644,9 +652,7 @@
         </div>
         <div class="row mb-50">
           <div class="col-12">
-            <div
-              class="news"
-            >
+            <div class="news">
               <div class="news-aside">
                 <div class="news-img">
                   <img src="img/Image_13.jpg" alt="news img" />
@@ -662,8 +668,8 @@
                   </div>
                   <a class="title-link" href="#">
                     <h4>
-                      10 признаков того, что злоумышленники заинтересовались вашим
-                      жильем
+                      10 признаков того, что злоумышленники заинтересовались
+                      вашим жильем
                     </h4>
                   </a>
                   <p>
@@ -686,8 +692,8 @@
                   </div>
                   <a class="title-link" href="#">
                     <h4>
-                      10 признаков того, что злоумышленники заинтересовались вашим
-                      жильем
+                      10 признаков того, что злоумышленники заинтересовались
+                      вашим жильем
                     </h4>
                   </a>
                   <p>
@@ -707,8 +713,8 @@
                   </div>
                   <a class="title-link" href="#">
                     <h4>
-                      10 признаков того, что злоумышленники заинтересовались вашим
-                      жильем
+                      10 признаков того, что злоумышленники заинтересовались
+                      вашим жильем
                     </h4>
                   </a>
                   <p>
@@ -728,8 +734,8 @@
                   </div>
                   <a class="title-link" href="#">
                     <h4>
-                      10 признаков того, что злоумышленники заинтересовались вашим
-                      жильем
+                      10 признаков того, что злоумышленники заинтересовались
+                      вашим жильем
                     </h4>
                   </a>
                   <p>
@@ -863,9 +869,9 @@
                     data-wow-duration="1s"
                     data-wow-delay="1s"
                   >
-                  <a href="#">
+                    <a href="#">
                       <img src="img/sheriff_logo.svg" alt="logo" />
-                  </a>
+                    </a>
                   </div>
                   <div class="footer-contact">
                     <span class="phone"><strong>0 800</strong> 309 114</span>
@@ -911,14 +917,20 @@
                       <li><a href="#">Охрана частного дома</a></li>
                       <li><a href="#">Сопровождение делегаций</a></li>
                       <li><a href="#">Гражданская безопасность</a></li>
-                      <li><a href="#">Охрана офисных и сладских помещений</a></li>
+                      <li>
+                        <a href="#">Охрана офисных и сладских помещений</a>
+                      </li>
                     </ul>
                     <a class="btn-gray-transparent" href="#">Все услуги</a>
                     <div class="subscription">
                       <span class="title">Хочу получать новости и акции:</span>
                       <form action="#">
-                        <input type="text" placeholder="Ваш email"/>
-                        <input class="btn-input" type="button" value="Подписаться" />
+                        <input type="text" placeholder="Ваш email" />
+                        <input
+                          class="btn-input"
+                          type="button"
+                          value="Подписаться"
+                        />
                       </form>
                       <a href="#" class="btn-yellow">Личный кабинет</a>
                       <a href="#" class="btn-gray">Оплата услуг</a>
@@ -930,6 +942,193 @@
           </div>
         </div>
       </footer>
+      <div
+        class="modal fade"
+        id="order"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </a>
+            <div class="order-box">
+              <div class="order-aside">
+                <!-- <div class="order-bi">
+                  <img src="#">
+                </div> -->
+                <div class="order-logo">
+                  <img src="img/sheriff_logo.svg" alt="logo" />
+                </div>
+                <div class="owl-carousel owl-theme order-carousel">
+                  <div class="item">
+                    <a href="#" class="btn-stiker stiker-stock">АКЦИЯ</a>
+                    <a href="#" class="title"
+                      >Социальный проект: Вас ограбили?</a
+                    >
+                    <p>
+                      Случилась беда, и вы или ваши друзья стали жертвами
+                      ограбления, потерявши веру в защищенность жилья? Каждый
+                      месяц Шериф готов предоставлять пострадавшим от ограблений
+                      пакет услуг по охране жилья на протяжении 2 месяцев
+                      АБСОЛЮТНО БЕСПЛАТНО.
+                    </p>
+                  </div>
+                  <div class="item">
+                    <a href="#" class="btn-stiker stiker-stock">АКЦИЯ</a>
+                    <a href="#" class="title"
+                      >Социальный проект: Вас ограбили?</a
+                    >
+                    <p>
+                      Случилась беда, и вы или ваши друзья стали жертвами
+                      ограбления, потерявши веру в защищенность жилья? Каждый
+                      месяц Шериф готов предоставлять пострадавшим от ограблений
+                      пакет услуг по охране жилья на протяжении 2 месяцев
+                      АБСОЛЮТНО БЕСПЛАТНО.
+                    </p>
+                  </div>
+                  <div class="item">
+                    <a href="#" class="btn-stiker stiker-stock">АКЦИЯ</a>
+                    <a href="#" class="title"
+                      >Социальный проект: Вас ограбили?</a
+                    >
+                    <p>
+                      Случилась беда, и вы или ваши друзья стали жертвами
+                      ограбления, потерявши веру в защищенность жилья? Каждый
+                      месяц Шериф готов предоставлять пострадавшим от ограблений
+                      пакет услуг по охране жилья на протяжении 2 месяцев
+                      АБСОЛЮТНО БЕСПЛАТНО.
+                    </p>
+                  </div>
+                </div>
+                <span class="title">Возникли вопросы?</span>
+                <span class="phone"><strong>0 800</strong> 309 114</span>
+                <span class="text">бесплатно</span>
+              </div>
+              <div class="order-main">
+                <form action="#">
+                  <h4>Выберите тип услуги:</h4>
+                  <div class="form-check form-check-inline order-radio">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="inlineRadioOptions"
+                      id="inlineRadio1"
+                      value="option1"
+                    />
+                    <label
+                      class="form-check-label order-radio-label"
+                      for="inlineRadio1"
+                    >
+                      <div class="radio-wrapper">
+                        <div class="radio-info">
+                          <div class="radio-img">
+                            <img src="img/house.svg" />
+                          </div>
+                          <span>Охрана помещений</span>
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline order-radio">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="inlineRadioOptions"
+                      id="inlineRadio2"
+                      value="option2"
+                      checked
+                    />
+                    <label
+                      class="form-check-label order-radio-label"
+                      for="inlineRadio2"
+                    >
+                      <div class="radio-wrapper">
+                        <div class="radio-info">
+                          <div class="radio-img">
+                            <img src="img/user.svg" />
+                          </div>
+                          <span>Личностная Охрана</span>
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline order-radio">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="inlineRadioOptions"
+                      id="inlineRadio3"
+                      value="option3"
+                    />
+                    <label
+                      class="form-check-label order-radio-label"
+                      for="inlineRadio3"
+                    >
+                      <div class="radio-wrapper">
+                        <div class="radio-info">
+                          <div class="radio-img">
+                            <img src="img/hacker.svg" />
+                          </div>
+                          <span>Пультовая Охрана</span>
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="order-select">
+                    <label for="inputState"><img src="img/select-icon.svg"></label>
+                    <select class="form-control" id="inputState">
+                      <option selected>Выберите подкатегорию</option>
+                    </select>
+                  </div>
+                  <div class="form-group form-check order-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                    <label class="form-check-label" for="exampleCheck1"
+                      >Не могу определится</label
+                    >
+                  </div>
+                  <h4>Укажите ваши контактные данные:</h4>
+                  <div class="form-group-contact">
+                    <label for="formGroupExampleInput"
+                      ><img src="img/user-2.svg"
+                    /></label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="formGroupExampleInput"
+                      placeholder="Ваше имя"
+                    />
+                  </div>
+                  <div class="form-group-contact">
+                    <label for="formGroupExampleInput"
+                      ><img src="img/phone.svg"
+                    /></label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="formGroupExampleInput"
+                      placeholder="Ваш номер телефона"
+                    />
+                  </div>
+                  <input
+                    type="button"
+                    value="Оставить заявку"
+                    class="btn-yellow-small"
+                    data-dismiss="modal"
+                  />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="js/tether.min.js"></script>
