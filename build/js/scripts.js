@@ -42,6 +42,23 @@ $(".order-carousel").owlCarousel({
   }
 });
 
+$(".servicw-carousel").owlCarousel({
+  loop: true,
+  margin: 5,
+  nav: true,
+  responsive: {
+    0: {
+      items: 1
+    },
+    600: {
+      items: 3
+    },
+    1200: {
+      items: 3
+    }
+  }
+});
+
 //==================================================
 
 // var TxtRotate = function(el, toRotate, period) {

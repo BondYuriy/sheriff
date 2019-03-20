@@ -1,0 +1,111 @@
+.service-card {
+  height: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+  text-align: center;
+  margin: 5px 10px 15px 10px;
+
+  &:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  & .service-card-main {
+    padding: 17px 12px;
+    background-color: $white;
+
+    & .service-card-img {
+      width: 243px;
+      height: 243px;
+      border-radius: 50%;
+      background-color: #f2f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto 30px auto;
+
+      & img {
+        width: 218px;
+        height: 218px;
+        border-radius: 50%;
+        background-color: $white;
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
+      }
+    }
+
+    & .title {
+      display: block;
+
+      & h4 {
+        display: inline-block;
+        height: 44px;
+        color: $info-color;
+        font-size: $h4;
+        font-weight: $Regular;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        overflow: hidden;
+
+        // &::after {
+        //   display: block;
+        //   content: "";
+        //   flex: 0 0 18px;
+        //   height: 16px;
+        //   background-image: url("../img/link.svg");
+        //   background-position: center;
+        //   background-size: cover;
+        //   background-repeat: no-repeat;
+        //   margin-left: 6px;
+        // }
+
+        & img {
+          display: inline-block;
+          width: 18px;
+          height: 16px;
+          margin-left: 6px;
+        }
+      }
+    }
+
+    & p {
+      height: 60px;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 20px;
+      overflow: hidden;
+    }
+
+    & .link {
+      color: #d8c300;
+      font-size: 13px;
+      font-weight: $Medium;
+      border-bottom: 1px solid #d8c300;
+    }
+  }
+
+  & .service-card-footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 17px;
+    background-color: #fafafa;
+
+    & .price {
+      margin-right: auto;
+
+      & span {
+        display: block;
+        color: $info-color;
+        font-size: 13px;
+        font-weight: $bold;
+
+        & strong {
+          color: $yellow-color;
+          font-size: 41px;
+          font-weight: $bold;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}

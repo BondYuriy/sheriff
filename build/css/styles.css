@@ -7049,6 +7049,10 @@ a:hover {
 	margin-bottom: 22px;
 }
 
+.article p {
+	margin: 0;
+}
+
 .article .subtitle {
 	margin-bottom: 36px;
 }
@@ -7618,38 +7622,43 @@ a:hover {
 	align-items: center;
 }
 
-.social ul li .fa {
+.social ul li .icon {
 	display: inline-block;
-	width: 50px;
+	width: auto;
 	height: 50px;
-	background-color: #333333;
 }
 
-.social ul li .fa svg {
+.social ul li .icon svg {
 	display: block;
 	width: 100%;
 	height: 100%;
-	fill: #606060;
+	fill: #333333;
 }
 
-.social ul li .fa-facebook {
+.social ul li .icon-facebook {
+	width: 26px;
 	margin-right: 40px;
 }
 
-.social ul li .fa-facebook:hover {
-	background-color: #3b5999;
+.social ul li .icon-facebook:hover svg {
+	fill: #3b5999;
 }
 
-.social ul li .fa-instagram {
-	margin-right: 40px;
+.social ul li .icon-instagram {
+	width: 50px;
+	margin-right: 27px;
 }
 
-.social ul li .fa-instagram:hover {
-	background-color: #e4405f;
+.social ul li .icon-instagram:hover svg {
+	fill: #e4405f;
 }
 
-.social ul li .fa-youtube:hover {
-	background-color: #cd201f;
+.social ul li .icon-youtube {
+	width: 64px;
+}
+
+.social ul li .icon-youtube:hover svg {
+	fill: #cd201f;
 }
 
 .breadcrumb-wrapper {
@@ -8312,6 +8321,103 @@ a:hover {
 	color: #ffe600;
 	font-size: 18px;
 	font-weight: 400;
+}
+
+.service-card {
+	height: auto;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+	text-align: center;
+	margin: 5px 10px 15px 10px;
+}
+
+.service-card:hover {
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.service-card .service-card-main {
+	padding: 17px 12px;
+	background-color: #fff;
+}
+
+.service-card .service-card-main .service-card-img {
+	width: 243px;
+	height: 243px;
+	border-radius: 50%;
+	background-color: #f2f0f0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto 30px auto;
+}
+
+.service-card .service-card-main .service-card-img img {
+	width: 218px;
+	height: 218px;
+	border-radius: 50%;
+	background-color: #fff;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
+}
+
+.service-card .service-card-main .title {
+	display: block;
+}
+
+.service-card .service-card-main .title h4 {
+	display: inline-block;
+	height: 44px;
+	color: #141414;
+	font-size: 19px;
+	font-weight: 400;
+	overflow: hidden;
+}
+
+.service-card .service-card-main .title h4 img {
+	display: inline-block;
+	width: 18px;
+	height: 16px;
+	margin-left: 6px;
+}
+
+.service-card .service-card-main p {
+	height: 60px;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 20px;
+	overflow: hidden;
+}
+
+.service-card .service-card-main .link {
+	color: #d8c300;
+	font-size: 13px;
+	font-weight: 500;
+	border-bottom: 1px solid #d8c300;
+}
+
+.service-card .service-card-footer {
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 17px;
+	background-color: #fafafa;
+}
+
+.service-card .service-card-footer .price {
+	margin-right: auto;
+}
+
+.service-card .service-card-footer .price span {
+	display: block;
+	color: #141414;
+	font-size: 13px;
+	font-weight: 700;
+}
+
+.service-card .service-card-footer .price span strong {
+	color: #ffe600;
+	font-size: 41px;
+	font-weight: 700;
+	line-height: 30px;
 }
 
 .header-home {
@@ -9117,6 +9223,38 @@ a:hover {
 	display: block;
 	width: 100%;
 	height: auto;
+}
+
+.service-wrapper {
+	background-color: #fafafa;
+	overflow: hidden;
+}
+
+.servicw-carousel .owl-stage-outer {
+	overflow: visible;
+}
+
+.servicw-carousel .owl-stage-outer .owl-stage .owl-item {
+	opacity: 0.3;
+}
+
+.servicw-carousel .owl-stage-outer .owl-stage .active {
+	opacity: 1;
+}
+
+.advantage-service .advantage-img {
+	height: 387px;
+}
+
+.advantage-service .advantage-img .round-background {
+	z-index: 1;
+}
+
+.advantage-service .advantage-img img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
 }
 
 /* === heeader === */
@@ -11536,7 +11674,7 @@ a:hover {
 
 body.sticky-header .header {
 	height: 70px;
-	background-color: rgba(10, 10, 10, 0.5);
+	background-color: rgba(10, 10, 10, 0.7);
 }
 
 body.sticky-header .header .header-info .logo {

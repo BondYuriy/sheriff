@@ -7,38 +7,49 @@
     align-items: center;
 
     li {
-      & .fa {
+      & .icon {
         display: inline-block;
-        width: 50px;
+        width: auto;
         height: 50px;
-        background-color: #333333;
 
         & svg {
           display: block;
           width: 100%;
           height: 100%;
-          fill: #606060;
+          fill: #333333;
         }
       }
 
-      & .fa-facebook {
+      & .icon-facebook {
+        width: 26px;
         margin-right: 40px;
 
         &:hover {
-          background-color: #3b5999;
+          & svg {
+            fill: #3b5999;
+          }
         }
       }
 
-      & .fa-instagram {
-        margin-right: 40px;
+      & .icon-instagram {
+        width: 50px;
+        margin-right: 27px;
 
         &:hover {
-          background-color: #e4405f;
+          & svg {
+            fill: #e4405f;
+          }
         }
       }
 
-      & .fa-youtube:hover {
-        background-color: #cd201f;
+      & .icon-youtube {
+        width: 64px;
+
+        &:hover {
+          svg {
+            fill: #cd201f;
+          }
+        }
       }
     }
   }
