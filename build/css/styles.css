@@ -8048,6 +8048,9 @@ a:hover {
 }
 
 .modal .modal-dialog .modal-content .order-box .order-main form .order-select select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 	padding-left: 70px;
 	margin: 24px 0;
 	height: 48px;
@@ -8083,9 +8086,8 @@ a:hover {
 	height: 32px;
 	width: 32px;
 	border-radius: 10px;
-	border: 6px solid #f2f0f0;
+	background-color: #898989;
 	transition: all 0.15s ease-out 0s;
-	background: #fff;
 	color: #fff;
 	cursor: pointer;
 	position: relative;
@@ -8158,8 +8160,8 @@ a:hover {
 	border: 5px solid #ffe600;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-main form .btn-yellow-small {
-	margin-top: 42px;
+.modal .modal-dialog .modal-content .order-box .order-main form .btn-yellow-bulk {
+	margin-top: 20px;
 }
 
 .modal-final {
@@ -8336,6 +8338,10 @@ a:hover {
 	align-items: center;
 }
 
+.header .header-info .logo {
+	display: block;
+}
+
 .header .header-info .logo a {
 	display: block;
 	width: 245px;
@@ -8343,6 +8349,22 @@ a:hover {
 }
 
 .header .header-info .logo a img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.header .header-info .logo-adaptive {
+	display: none;
+}
+
+.header .header-info .logo-adaptive a {
+	display: block;
+	width: 50px;
+	height: 50px;
+}
+
+.header .header-info .logo-adaptive a img {
 	display: block;
 	width: 100%;
 	height: 100%;
@@ -8376,6 +8398,7 @@ a:hover {
 .header .header-info .header-contact .phone strong {
 	font-weight: 700;
 	color: #ffe600;
+	transition: 0s;
 }
 
 .header .header-info .header-contact .phone-info {
@@ -11512,19 +11535,29 @@ a:hover {
 }
 
 body.sticky-header .header {
-	height: 96px;
-	background-color: rgba(10, 10, 10, 0.3);
+	height: 70px;
+	background-color: rgba(10, 10, 10, 0.5);
 }
 
-body.sticky-header .header .header-box .logo a {
-	width: 36px;
-	height: 36px;
-	line-height: 32px;
-	font-size: 22px;
-}
-
-body.sticky-header .header .header-box .logo .logo-text {
+body.sticky-header .header .header-info .logo {
 	display: none;
+}
+
+body.sticky-header .header .header-info .logo-adaptive {
+	display: block;
+}
+
+body.sticky-header .header .header-info .separator div {
+	margin-bottom: 7px;
+}
+
+body.sticky-header .header .header-info .separator div:last-child {
+	margin-bottom: 0;
+}
+
+body.sticky-header .header .header-info .header-contact .phone {
+	font-size: 28px;
+	line-height: 30px;
 }
 
 }

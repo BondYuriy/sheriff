@@ -3,19 +3,33 @@
 @media (min-width: 992px) {
   body.sticky-header {
     .header {
-      height: 96px;
-      background-color: rgba(10, 10, 10, 0.3);
+      height: 70px;
+      background-color: rgba(10, 10, 10, 0.5);
 
-      & .header-box .logo {
-        & a {
-          width: 36px;
-          height: 36px;
-          line-height: 32px;
-          font-size: 22px;
+      & .header-info {
+        & .logo {
+          display: none;
         }
 
-        & .logo-text {
-          display: none;
+        & .logo-adaptive {
+          display: block;
+        }
+
+        & .separator {
+          & div {
+            margin-bottom: 7px;
+
+            &:last-child {
+              margin-bottom: 0;
+            }
+          }
+        }
+
+        & .header-contact {
+          & .phone {
+            font-size: 28px;
+            line-height: 30px;
+          }
         }
       }
     }

@@ -258,6 +258,7 @@
               }
 
               & select {
+                appearance: none;
                 padding-left: 70px;
                 margin: 24px 0;
                 height: 48px;
@@ -291,9 +292,8 @@
                 height: 32px;
                 width: 32px;
                 border-radius: 10px;
-                border: 6px solid #f2f0f0;
+                background-color: #898989;
                 transition: all 0.15s ease-out 0s;
-                background: $white;
                 color: $white;
                 cursor: pointer;
                 position: relative;
@@ -351,8 +351,8 @@
               }
             }
 
-            & .btn-yellow-small {
-              margin-top: 42px;
+            & .btn-yellow-bulk {
+              margin-top: 20px;
             }
           }
         }
