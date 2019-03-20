@@ -911,9 +911,9 @@
                       <option selected="">Выберите подкатегорию</option>
                     </select>
                   </div>
-                  <div class="form-group form-check order-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Не могу определится</label>
+                  <div class="order-check">
+                    <input class="form-check-input" type="checkbox" value="" id="sizeCheck">
+                    <label class="form-check-label" for="sizeCheck">Не могу определится</label>
                   </div>
                   <h4>Укажите ваши контактные данные:</h4>
                   <div class="form-group-contact">
@@ -921,11 +921,45 @@
                     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ваше имя">
                   </div>
                   <div class="form-group-contact">
-                    <label for="formGroupExampleInput"><img src="img/phone.svg"></label>
-                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ваш номер телефона">
+                    <label for="formGroupExampleInput2"><img src="img/phone.svg"></label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Ваш номер телефона">
                   </div>
-                  <input type="button" value="Оставить заявку" class="btn-yellow-small" data-dismiss="modal">
+                  <input type="button" value="Оставить заявку" class="btn-yellow-bulk" data-dismiss="modal" data-target="#order-final" data-toggle="modal">
                 </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade modal-final" id="order-final" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </a>
+            <div class="order-final-box">
+              <!-- <div class="order-bi">
+                  <img src="#">
+                </div> -->
+              <div class="order-logo">
+                <img src="img/sheriff_logo.svg" alt="logo">
+              </div>
+              <div class="feedbeck-info">
+                <span class="title">Спасибо за вашу заявку</span>
+                <span class="text">Наш менеджер свяжется с Вами в ближайшее время для уточнения всех деталей</span>
+              </div>
+              <div class="sales-box">
+                <div class="sales-img">
+                  <div class="round-background"></div>
+                  <img src="img/kisspng-afc-ajax-security-alarms-systems-ajax-systems-al-ajax-5b2b2fdb9c68b7.9166909715295569556407.png" alt="sales img">
+                </div>
+                <span class="title">Бесплатная установка</span>
+                <span class="text">Системы безопасности AJAX Вам в подарок!</span>
+              </div>
+              <div class="contact-box">
+                <span class="title">Возникли вопросы?</span>
+                <span class="phone"><strong>0 800</strong> 309 114</span>
+                <span class="text">бесплатно</span>
               </div>
             </div>
           </div>

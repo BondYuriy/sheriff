@@ -277,7 +277,42 @@
             }
 
             & .order-check {
-              margin-bottom: 65px;
+              padding: 0;
+              display: flex;
+              align-items: center;
+              margin-bottom: 70px;
+
+              & .form-check-input {
+                border: none;
+                appearance: none;
+                outline: none;
+                margin: 0;
+                display: inline-block;
+                height: 32px;
+                width: 32px;
+                border-radius: 10px;
+                border: 6px solid #f2f0f0;
+                transition: all 0.15s ease-out 0s;
+                background: $white;
+                color: $white;
+                cursor: pointer;
+                position: relative;
+                margin-right: 20px;
+
+                &:checked::before {
+                  display: inline-block;
+                  content: "";
+                  width: 20px;
+                  height: 20px;
+                  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.24);
+                  border-radius: 5px;
+                  background-color: $yellow-color;
+                  position: absolute;
+                  left: 50%;
+                  top: 50%;
+                  transform: translate(-50%, -50%);
+                }
+              }
             }
 
             & .form-group-contact {

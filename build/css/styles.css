@@ -8066,7 +8066,45 @@ a:hover {
 }
 
 .modal .modal-dialog .modal-content .order-box .order-main form .order-check {
-	margin-bottom: 65px;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	margin-bottom: 70px;
+}
+
+.modal .modal-dialog .modal-content .order-box .order-main form .order-check .form-check-input {
+	border: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	outline: none;
+	margin: 0;
+	display: inline-block;
+	height: 32px;
+	width: 32px;
+	border-radius: 10px;
+	border: 6px solid #f2f0f0;
+	transition: all 0.15s ease-out 0s;
+	background: #fff;
+	color: #fff;
+	cursor: pointer;
+	position: relative;
+	margin-right: 20px;
+}
+
+.modal .modal-dialog .modal-content .order-box .order-main form .order-check .form-check-input:checked::before {
+	display: inline-block;
+	content: "";
+	width: 20px;
+	height: 20px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.24);
+	border-radius: 5px;
+	background-color: #ffe600;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
 
 .modal .modal-dialog .modal-content .order-box .order-main form .form-group-contact {
@@ -8122,6 +8160,156 @@ a:hover {
 
 .modal .modal-dialog .modal-content .order-box .order-main form .btn-yellow-small {
 	margin-top: 42px;
+}
+
+.modal-final {
+	background-color: rgba(20, 20, 20, 0.97);
+}
+
+.modal-final .modal-dialog {
+	max-width: 1100px;
+	overflow: hidden;
+}
+
+.modal-final .modal-dialog .modal-content {
+	padding: 0;
+	border-radius: 15px;
+	background-color: #313131;
+}
+
+.modal-final .modal-dialog .modal-content .close {
+	padding: 0;
+	text-shadow: none;
+	display: block;
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+	background-color: #ffe600;
+	color: #000;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 55px;
+	text-align: center;
+	opacity: 1;
+	position: absolute;
+	right: 13px;
+	top: 13px;
+}
+
+.modal-final .modal-dialog .modal-content .order-final-box {
+	border-radius: 15px;
+	padding: 38px 0 85px 0;
+	text-align: center;
+	position: relative;
+}
+
+.modal-final .modal-dialog .modal-content .order-final-box .order-bi {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	bottom: 0;
+}
+
+.modal-final .modal-dialog .modal-content .order-final-box .order-bi img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.modal-final .modal-dialog .modal-content .order-final-box .order-logo {
+	width: 137px;
+	height: 181px;
+	margin: 0 auto 80px auto;
+}
+
+.modal-final .modal-dialog .modal-content .order-final-box .order-logo img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.modal-final .modal-dialog .modal-content .order-final-box .feedbeck-info {
+	margin-bottom: 50px;
+}
+
+.modal-final .modal-dialog .modal-content .order-final-box .feedbeck-info .title {
+	display: block;
+	color: #fff;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 23px;
+}
+
+.modal-final .modal-dialog .modal-content .order-final-box .feedbeck-info .text {
+	display: block;
+	font-size: 15px;
+}
+
+.modal-final .modal-dialog .modal-content .order-final-box .sales-box {
+	margin-bottom: 53px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 21px;
+}
+
+.modal-final .modal-dialog .modal-content .order-final-box .sales-box .sales-img {
+	width: 171px;
+	height: 109px;
+	margin: 0 auto 16px auto;
+	position: relative;
+}
+
+.modal-final .modal-dialog .modal-content .order-final-box .sales-box .sales-img .round-background {
+	width: 108px;
+	height: 109px;
+	border-radius: 50%;
+	background-color: #ffe600;
+	position: absolute;
+	left: 30px;
+	top: -20px;
+	z-index: 1;
+}
+
+.modal-final .modal-dialog .modal-content .order-final-box .sales-box .sales-img img {
+	display: block;
+	width: 171px;
+	height: 109px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.modal-final .modal-dialog .modal-content .order-final-box .sales-box .title {
+	display: block;
+	font-weight: 700;
+}
+
+.modal-final .modal-dialog .modal-content .order-final-box .contact-box .title {
+	display: block;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 400;
+	margin-bottom: 8px;
+}
+
+.modal-final .modal-dialog .modal-content .order-final-box .contact-box .phone {
+	display: block;
+	color: #ffe600;
+	font-size: 39px;
+	font-weight: 400;
+	line-height: 42px;
+}
+
+.modal-final .modal-dialog .modal-content .order-final-box .contact-box .phone strong {
+	font-weight: 700;
+}
+
+.modal-final .modal-dialog .modal-content .order-final-box .contact-box .text {
+	color: #ffe600;
+	font-size: 18px;
+	font-weight: 400;
 }
 
 .header-home {
