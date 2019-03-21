@@ -12428,6 +12428,63 @@ body.sticky-header .header .header-info .header-contact .phone {
 
 }
 
+@media (max-width: 1440px) {
+
+.header {
+	height: 120px;
+}
+
+.header .header-info .logo a {
+	width: 200px;
+	height: 64px;
+}
+
+.header .header-info .separator {
+	margin: 0 15px 0 20px;
+}
+
+.header .header-info .header-contact .phone {
+	font-size: 35px;
+}
+
+.header .nav-box nav ul li a {
+	padding: 0 10px;
+}
+
+.header .nav-box .header-options {
+	margin-right: 20px;
+}
+
+.header .nav-box .header-options a {
+	margin-right: 20px;
+}
+
+.header-main .extra-nav .nav-list {
+	padding: 10px 20px;
+}
+
+.header-main .extra-nav .nav-list a {
+	margin-right: 40px;
+}
+
+.header-main .extra-nav .nav-list a:last-child {
+	margin-right: 0;
+}
+
+.header-main .extra-nav .extra-nav-btn {
+	padding: 32px 10px;
+}
+
+.header-main .header-main-info h1 {
+	font-size: 42px;
+}
+
+.header-main .header-main-info h1 strong {
+	font-size: 42px;
+}
+
+}
+
 @media (max-width: 1199.98px) {
 
 .table-responsive-xl {
