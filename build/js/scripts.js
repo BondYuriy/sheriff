@@ -22,8 +22,8 @@ $(".customers-carousel").owlCarousel({
     0: {
       items: 1
     },
-    600: {
-      items: 3
+    992: {
+      items: 5
     },
     1200: {
       items: 6

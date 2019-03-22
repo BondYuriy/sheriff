@@ -9259,6 +9259,18 @@ a:hover {
 
 /* === heeader === */
 
+/*===== article =====*/
+
+/*===== data-box =====*/
+
+/*===== feedbeck =====*/
+
+/*===== news =====*/
+
+/*===== home page =====*/
+
+/*===== home page =====*/
+
 @media screen and (prefers-reduced-motion: reduce) {
 
 .form-control {
@@ -12481,6 +12493,172 @@ body.sticky-header .header .header-info .header-contact .phone {
 
 .header-main .header-main-info h1 strong {
 	font-size: 42px;
+}
+
+}
+
+@media (max-width: 1200px) {
+
+.header .nav-box nav {
+	display: none;
+}
+
+.header-main .header-main-info h1 {
+	font-size: 32px;
+	margin-bottom: 30px;
+}
+
+.header-main .header-main-info h1 strong {
+	font-size: 32px;
+}
+
+.article h2 {
+	margin-bottom: 15px;
+}
+
+.article .subtitle {
+	margin-bottom: 20px;
+}
+
+.article .article-link {
+	margin-top: 30px;
+}
+
+.data-box .data-background {
+	height: 531px;
+}
+
+.data-box .record .feedbeck-form-box {
+	padding-top: 0;
+}
+
+.data-box .record .feedbeck-form-box form input[type="text"] {
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.data-box .record .feedbeck-form-box form input[type="text"]:last-child {
+	margin-bottom: 0;
+}
+
+.feedbeck-form-box {
+	justify-content: center;
+	text-align: center;
+}
+
+.feedbeck-form-box .feedbeck-form-info {
+	flex: 0 0 100%;
+	margin-bottom: 30px;
+}
+
+.feedbeck-form-box form {
+	flex: 0 0 100%;
+}
+
+.feedbeck-form-box form input[type="text"] {
+	border: 0;
+	width: 246px;
+	height: 48px;
+	border-radius: 20px;
+	padding: 0 10px;
+	text-align: center;
+	color: #0f0f0f;
+	font-size: 15px;
+	border: 3px solid rgba(0, 0, 0, 0);
+	margin-right: 11px;
+}
+
+.feedbeck-form-box form input[type="text"]::-webkit-input-placeholder {
+	color: #898989;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 50px;
+}
+
+.feedbeck-form-box form input[type="text"]::-ms-input-placeholder {
+	color: #898989;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 50px;
+}
+
+.feedbeck-form-box form input[type="text"]::placeholder {
+	color: #898989;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 50px;
+}
+
+.feedbeck-form-box form input[type="text"]:focus {
+	outline: none;
+	border: 0;
+	border: 3px solid #ffe600;
+}
+
+.news {
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.news .news-aside {
+	flex: 0 0 100%;
+	display: flex;
+	margin-bottom: 23px;
+}
+
+.news .news-aside .news-img {
+	flex: 0 0 40%;
+	height: auto;
+}
+
+.news .news-aside .news-img img {
+	display: block;
+	min-width: 100%;
+	height: 100%;
+}
+
+.news .news-aside .news-article {
+	padding: 16px;
+}
+
+.news .news-aside .news-article .title-link h4 {
+	height: 40px;
+}
+
+.news .news-aside .news-article p {
+	height: 57px;
+}
+
+.news .news-list {
+	flex: 0 0 100%;
+}
+
+.advantage .advantage-img .round-background,
+.advantage-2 .advantage-img .round-background {
+	width: 360px;
+	height: 360px;
+}
+
+.advantage-2 .advantage-img .round-background {
+	right: 60px;
+	top: -112px;
+}
+
+.advantage-2 .advantage-info .article .img-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 25px;
+}
+
+.advantage-2 .advantage-info .article .img-box img {
+	display: block;
+	width: 48%;
+	height: auto;
+}
+
+.advantage-service .advantage-img {
+	height: 320px;
 }
 
 }

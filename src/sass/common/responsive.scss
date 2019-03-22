@@ -1,4 +1,5 @@
 /* === heeader === */
+
 @media (max-width: 1440px) {
   .header {
     height: 120px;
@@ -57,6 +58,23 @@
 
       & strong {
         font-size: 42px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .header .nav-box nav {
+    display: none;
+  }
+
+  .header-main .header-main-info {
+    & h1 {
+      font-size: 32px;
+      margin-bottom: 30px;
+
+      & strong {
+        font-size: 32px;
       }
     }
   }
@@ -236,5 +254,176 @@
         flex: 0 0 37px;
       }
     }
+  }
+}
+
+/*===== article =====*/
+
+@media (max-width: 1200px) {
+  .article {
+    & h2 {
+      margin-bottom: 15px;
+    }
+
+    & .subtitle {
+      margin-bottom: 20px;
+    }
+
+    & .article-link {
+      margin-top: 30px;
+    }
+  }
+}
+
+/*===== data-box =====*/
+
+@media (max-width: 1200px) {
+  .data-box {
+    & .data-background {
+      height: 531px;
+    }
+
+    & .record .feedbeck-form-box {
+      padding-top: 0;
+
+      & form input[type="text"] {
+        margin: 0;
+        margin-bottom: 20px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+/*===== feedbeck =====*/
+
+@media (max-width: 1200px) {
+  .feedbeck-form-box {
+    justify-content: center;
+    text-align: center;
+
+    & .feedbeck-form-info {
+      flex: 0 0 100%;
+      margin-bottom: 30px;
+    }
+
+    & form {
+      flex: 0 0 100%;
+
+      & input[type="text"] {
+        border: 0;
+        width: 246px;
+        height: 48px;
+        border-radius: 20px;
+        padding: 0 10px;
+        text-align: center;
+        color: $title-color;
+        font-size: 15px;
+        border: 3px solid rgba(0, 0, 0, 0);
+        margin-right: 11px;
+
+        &::placeholder {
+          color: $text-color;
+          font-size: 15px;
+          font-weight: $Regular;
+          line-height: 50px;
+        }
+
+        &:focus {
+          outline: none;
+          border: 0;
+          border: 3px solid $yellow-color;
+        }
+      }
+    }
+  }
+}
+
+/*===== news =====*/
+
+@media (max-width: 1200px) {
+  .news {
+    justify-content: center;
+    flex-wrap: wrap;
+
+    & .news-aside {
+      flex: 0 0 100%;
+      display: flex;
+      margin-bottom: 23px;
+
+      & .news-img {
+        flex: 0 0 40%;
+        height: auto;
+
+        & img {
+          display: block;
+          min-width: 100%;
+          height: 100%;
+        }
+      }
+
+      & .news-article {
+        padding: 16px;
+
+        & .title-link {
+          & h4 {
+            height: 40px;
+          }
+        }
+
+        & p {
+          height: 57px;
+        }
+      }
+    }
+
+    & .news-list {
+      flex: 0 0 100%;
+    }
+  }
+}
+
+/*===== home page =====*/
+
+@media (max-width: 1200px) {
+  .advantage,
+  .advantage-2 {
+    & .advantage-img {
+      & .round-background {
+        width: 360px;
+        height: 360px;
+      }
+    }
+  }
+
+  .advantage-2 {
+    & .advantage-img .round-background {
+      right: 60px;
+      top: -112px;
+    }
+
+    & .advantage-info .article .img-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 25px;
+
+      & img {
+        display: block;
+        width: 48%;
+        height: auto;
+      }
+    }
+  }
+}
+
+/*===== home page =====*/
+
+@media (max-width: 1200px) {
+  .advantage-service .advantage-img {
+    height: 320px;
   }
 }
