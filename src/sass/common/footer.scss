@@ -64,11 +64,13 @@
     flex: 0 0 30%;
 
     & .footer-logo {
+      margin-bottom: 60px;
+
       & a {
         display: block;
         width: 138px;
         height: 182px;
-        margin: 0 auto 60px auto;
+        margin: auto;
 
         & img {
           display: block;
