@@ -7520,6 +7520,7 @@ a:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 .data-box .record .record-list ul li {
@@ -7729,6 +7730,22 @@ a:hover {
 .stock-noactive .stock-noactive-list .stock-noactive-item .stock-noactive-img {
 	width: 100%;
 	height: 220px;
+	position: relative;
+}
+
+.stock-noactive .stock-noactive-list .stock-noactive-item .stock-noactive-img .stikers-box {
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+	padding: 0 10px;
+	height: 34px;
+	border-radius: 5px;
+	background-color: #fa5f60;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 34px;
 }
 
 .stock-noactive .stock-noactive-list .stock-noactive-item .stock-noactive-img img {
@@ -7739,21 +7756,6 @@ a:hover {
 
 .stock-noactive .stock-noactive-list .stock-noactive-article {
 	padding: 19px 15px 30px 15px;
-}
-
-.stock-noactive .stock-noactive-list .stock-noactive-article .stikers-box {
-	position: absolute;
-	left: 15px;
-	top: 170px;
-	padding: 0 10px;
-	height: 34px;
-	border-radius: 5px;
-	background-color: #fa5f60;
-	color: #fff;
-	font-size: 13px;
-	font-weight: 700;
-	text-align: center;
-	line-height: 34px;
 }
 
 .stock-noactive .stock-noactive-list .stock-noactive-article .title-link {
@@ -8390,6 +8392,7 @@ a:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
 	padding: 0 17px;
 	background-color: #fafafa;
 }
@@ -9263,11 +9266,15 @@ a:hover {
 
 /*===== breadcrumb =====*/
 
+/*===== category-title =====*/
+
 /*===== data-box =====*/
 
 /*===== feedbeck =====*/
 
 /*===== news =====*/
+
+/*===== service-card =====*/
 
 /*===== stock-noactive =====*/
 
@@ -12477,10 +12484,6 @@ body.sticky-header .header .header-info .header-contact .phone {
 	padding: 0 10px;
 }
 
-.header .nav-box .header-options {
-	margin-right: 20px;
-}
-
 .header .nav-box .header-options a {
 	margin-right: 20px;
 }
@@ -12524,6 +12527,27 @@ body.sticky-header .header .header-info .header-contact .phone {
 
 .header-main .header-main-info h1 strong {
 	font-size: 32px;
+}
+
+.overlay .overlay-nav-box {
+	flex-direction: column-reverse;
+	margin-bottom: 60px;
+}
+
+.overlay .overlay-nav-box .overlay-nav-aside {
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 60px;
+}
+
+.overlay .overlay-nav-box .overlay-nav-aside .nav-aside-item {
+	margin: 0;
+	margin-right: 30px;
+}
+
+.overlay .overlay-nav-box .overlay-nav-aside .nav-aside-item:last-child {
+	margin-right: 0;
 }
 
 .article h2 {
@@ -12745,6 +12769,47 @@ body.sticky-header .header {
 	left: 71px;
 }
 
+.overlay {
+	padding: 100px 20px 50px 20px;
+}
+
+.overlay .overlay-nav-box {
+	margin: 0;
+}
+
+.overlay .overlay-nav-box .overlay-nav {
+	display: block;
+}
+
+.overlay .overlay-nav-box .overlay-nav .nav-item {
+	margin-bottom: 60px;
+}
+
+.overlay .overlay-nav-box .overlay-nav .nav-item:last-child {
+	margin-bottom: 0;
+}
+
+.overlay .overlay-nav-box .overlay-nav .nav-item .item-menu {
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.overlay .overlay-nav-box .overlay-nav .nav-item .item-menu .item-icon {
+	margin: 0;
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+}
+
+.overlay .overlay-nav-box .overlay-nav .nav-item .item-menu span {
+	font-size: 20px;
+}
+
+.overlay .contacts-box {
+	display: none;
+}
+
 .footer .footer-main .footer-contact .phone {
 	font-size: 28px;
 	line-height: 30px;
@@ -12830,6 +12895,65 @@ body.sticky-header .header {
 
 .stock-noactive .stock-noactive-list .stock-noactive-item:nth-last-child(-n + 2) {
 	margin-bottom: 0;
+}
+
+.stock .stock-info {
+	flex-direction: column;
+}
+
+.stock .stock-info .stock-info-img {
+	width: 100%;
+	height: auto;
+}
+
+.stock .stock-info .stock-info-img img {
+	width: 100%;
+	height: auto;
+}
+
+.stock .stock-info .stock-info-box {
+	width: 100%;
+	height: auto;
+	flex-direction: column;
+	padding: 15px;
+}
+
+.stock .stock-info .stock-info-box .stock-info-content {
+	margin-bottom: 20px;
+}
+
+.stock .stock-info .stock-info-box .stock-info-content .title-link {
+	display: block;
+	transition: 0;
+}
+
+.stock .stock-info .stock-info-box .stock-info-content .title-link h4 {
+	height: auto;
+}
+
+.stock .stock-info .stock-info-box .stock-info-content p {
+	height: auto;
+}
+
+.stock .stock-info .stock-info-box .stock-info-btns span {
+	display: block;
+}
+
+.stock .stock-advantage {
+	padding: 10px 15px;
+}
+
+.stock .stock-advantage ul {
+	flex-direction: column;
+}
+
+.stock .stock-advantage ul li {
+	margin: 0;
+	width: 100%;
+}
+
+.stock .stock-advantage ul li:last-child {
+	margin-right: 0;
 }
 
 .advantage {
@@ -13003,7 +13127,8 @@ body.sticky-header .header {
 }
 
 .news .news-aside {
-	flex-direction: column;
+	display: block;
+	height: auto;
 }
 
 .news .news-aside .news-img {
@@ -13016,12 +13141,21 @@ body.sticky-header .header {
 	height: auto;
 }
 
+.news .news-aside .news-article .title-link h4 {
+	height: auto;
+}
+
+.news .news-aside .news-article p {
+	height: auto;
+}
+
 .stock-noactive {
 	padding-bottom: 30px;
 }
 
 .stock-noactive .stock-noactive-list .stock-noactive-item {
 	flex: 0 0 100%;
+	margin-right: 0;
 }
 
 .stock-noactive .stock-noactive-list .stock-noactive-item .stock-noactive-img {
@@ -13044,75 +13178,12 @@ body.sticky-header .header {
 	margin-bottom: 0;
 }
 
-.stock-noactive .stock-noactive-list .stock-noactive-item .stock-noactive-article .stikers-box {
-	top: 250px;
-}
-
 .stock-noactive .stock-noactive-list .stock-noactive-item .stock-noactive-article .title-link h4 {
 	height: auto;
 }
 
 .stock-noactive .stock-noactive-list .stock-noactive-item .stock-noactive-article p {
 	height: auto;
-}
-
-.stock .stock-info {
-	flex-direction: column;
-}
-
-.stock .stock-info .stock-info-img {
-	width: 100%;
-	height: auto;
-}
-
-.stock .stock-info .stock-info-img img {
-	width: 100%;
-	height: auto;
-}
-
-.stock .stock-info .stock-info-box {
-	width: 100%;
-	height: auto;
-	flex-direction: column;
-	padding: 15px;
-}
-
-.stock .stock-info .stock-info-box .stock-info-content {
-	margin-bottom: 20px;
-}
-
-.stock .stock-info .stock-info-box .stock-info-content .title-link {
-	display: block;
-	transition: 0;
-}
-
-.stock .stock-info .stock-info-box .stock-info-content .title-link h4 {
-	height: auto;
-}
-
-.stock .stock-info .stock-info-box .stock-info-content p {
-	height: auto;
-}
-
-.stock .stock-info .stock-info-box .stock-info-btns span {
-	display: block;
-}
-
-.stock .stock-advantage {
-	padding: 10px 15px;
-}
-
-.stock .stock-advantage ul {
-	flex-direction: column;
-}
-
-.stock .stock-advantage ul li {
-	margin: 0;
-	width: 100%;
-}
-
-.stock .stock-advantage ul li:last-child {
-	margin-right: 0;
 }
 
 .advantage .advantage-img .round-background,
@@ -13176,6 +13247,99 @@ body.sticky-header .header {
 
 .header-box .navigations .registration {
 	flex: 0 0 37px;
+}
+
+.category-title {
+	flex-direction: column;
+	padding: 30px 0;
+}
+
+.category-title .category-title-img {
+	margin: 0 0 15px 0;
+}
+
+.category-title h3 {
+	text-align: center;
+}
+
+.data-box .record .record-list ul {
+	justify-content: space-between;
+}
+
+.data-box .record .record-list ul li {
+	flex: 0 0 49%;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.data-box .record .record-list ul li:nth-last-child(-n + 2) {
+	margin-bottom: 0;
+}
+
+.data-box .record .feedbeck-form-box {
+	padding: 0;
+}
+
+.data-box .data-background {
+	height: 710px;
+}
+
+.data-box .btn-yellow {
+	right: 15px;
+}
+
+.service-card .service-card-main .title h4 {
+	height: auto;
+}
+
+.service-card .service-card-main p {
+	height: auto;
+}
+
+.service-card .service-card-footer {
+	padding: 20px 0;
+	height: auto;
+	flex-direction: column;
+}
+
+.service-card .service-card-footer .price {
+	margin: 0 0 15px 0;
+}
+
+.advantage,
+.advantage-2 {
+	padding-bottom: 40px;
+}
+
+.advantage .advantage-img,
+.advantage-2 .advantage-img {
+	width: 280px;
+	height: auto;
+}
+
+.advantage .advantage-img .round-background,
+.advantage-2 .advantage-img .round-background {
+	width: 230px;
+	height: 230px;
+}
+
+.advantage .advantage-info .article,
+.advantage-2 .advantage-info .article {
+	text-align: center;
+}
+
+.advantage .advantage-img .round-background {
+	right: 20px;
+	top: -40px;
+}
+
+.advantage-2 .advantage-img .round-background {
+	right: 25px;
+	top: -75px;
+}
+
+.advantage-service .advantage-img {
+	height: 200px;
 }
 
 }

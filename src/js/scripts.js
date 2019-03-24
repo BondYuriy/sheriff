@@ -20,9 +20,9 @@ $(".customers-carousel").owlCarousel({
   autoplayHoverPause: false,
   responsive: {
     0: {
-      items: 1
+      items: 2
     },
-    576: {
+    420: {
       items: 3
     },
     768: {

@@ -21,6 +21,22 @@
       & .stock-noactive-img {
         width: 100%;
         height: 220px;
+        position: relative;
+
+        & .stikers-box {
+          position: absolute;
+          left: 15px;
+          bottom: 15px;
+          padding: 0 10px;
+          height: 34px;
+          border-radius: 5px;
+          background-color: $red-color;
+          color: $white-color;
+          font-size: 13px;
+          font-weight: 700;
+          text-align: center;
+          line-height: 34px;
+        }
 
         & img {
           display: block;
@@ -32,21 +48,6 @@
 
     & .stock-noactive-article {
       padding: 19px 15px 30px 15px;
-
-      & .stikers-box {
-        position: absolute;
-        left: 15px;
-        top: 170px;
-        padding: 0 10px;
-        height: 34px;
-        border-radius: 5px;
-        background-color: $red-color;
-        color: $white-color;
-        font-size: 13px;
-        font-weight: 700;
-        text-align: center;
-        line-height: 34px;
-      }
 
       & .title-link {
         display: block;
