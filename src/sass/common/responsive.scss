@@ -65,7 +65,8 @@
 
 @media (max-width: 1200px) {
   .header .nav-box nav {
-    display: none;
+    width: 0;
+    height: 0;
   }
 
   .header-main .header-main-info {
