@@ -1,0 +1,17 @@
+.stock-card {
+  display: flex;
+  height: 600px; //========================
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+
+  & .stock-card-main {
+    height: 600px; //======================
+    flex: 0 0 73%;
+    background-color: $white;
+  }
+
+  & .stock-card-aside {
+    height: 600px; //======================
+    flex: 0 0 27%;
+    background-color: #fafafa;
+  }
+}

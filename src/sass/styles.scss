@@ -12,6 +12,7 @@
 @import "components/feedback";
 @import "components/category-title";
 @import "components/stock";
+@import "components/news-card";
 @import "components/news";
 @import "components/data-box";
 @import "components/customers-carousel";
@@ -21,8 +22,13 @@
 @import "components/modal-order";
 @import "components/modal-final";
 @import "components/service-card";
+@import "components/pagination";
+@import "components/stock-card";
 @import "common/header.scss";
 @import "common/footer.scss";
 @import "pages/home.scss";
 @import "pages/service.scss";
+@import "pages/news.scss";
+@import "pages/news-archive.scss";
+@import "pages/sales-inside.scss";
 @import "common/responsive.scss";

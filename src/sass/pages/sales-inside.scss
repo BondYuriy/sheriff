@@ -1,0 +1,9 @@
+.stock-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & .btn-transparent {
+    margin-top: 50px;
+  }
+}

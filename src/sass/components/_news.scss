@@ -2,61 +2,8 @@
   display: flex;
   justify-content: space-between;
 
-  & .news-aside {
+  & .news-card {
     flex: 0 0 32%;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
-
-    &:hover {
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    }
-
-    & .news-img {
-      height: 220px;
-      overflow: hidden;
-
-      & img {
-        display: block;
-        min-width: 100%;
-        height: 100%;
-      }
-    }
-
-    & .news-article {
-      padding: 16px;
-
-      & .stikers-box {
-        margin-bottom: 20px;
-
-        & .stiker-news {
-          margin-right: 10px;
-        }
-      }
-
-      & .title-link {
-        display: block;
-
-        & h4 {
-          height: 60px;
-          color: $title-color;
-          font-size: 17px;
-          font-weight: $Regular;
-          margin-bottom: 25px;
-          overflow: hidden;
-        }
-
-        &:hover h4 {
-          color: $black-color;
-          font-weight: $Medium;
-        }
-      }
-
-      & p {
-        height: 76px;
-        font-size: 13px;
-        margin-bottom: 25px;
-        overflow: hidden;
-      }
-    }
   }
 
   & .news-list {
@@ -93,6 +40,7 @@
           font-weight: $Regular;
           margin-bottom: 20px;
           overflow: hidden;
+          transition: 0s;
         }
 
         &:hover h4 {
