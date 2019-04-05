@@ -13008,6 +13008,7 @@ body.sticky-header .header {
 }
 
 .header-main .extra-nav {
+	justify-content: space-between;
 	right: 71px;
 	left: 71px;
 }
