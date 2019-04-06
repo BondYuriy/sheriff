@@ -63,7 +63,7 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
   .header .nav-box nav {
     width: 0;
     height: 0;
@@ -393,7 +393,7 @@
 
 /*===== article =====*/
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
   .article {
     & h2 {
       margin-bottom: 15px;
@@ -442,7 +442,7 @@
 
 /*===== data-box =====*/
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
   .data-box {
     & .data-background {
       height: 531px;
@@ -549,7 +549,7 @@
 
 /*===== feedbeck =====*/
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
   .feedbeck-form-box {
     justify-content: center;
     text-align: center;
@@ -609,62 +609,42 @@
   }
 }
 
-/*===== news =====*/
+/*===== news-card =====*/
 
-@media (max-width: 1200px) {
-  .news {
-    justify-content: center;
-    flex-wrap: wrap;
+@media (max-width: 1199px) {
+  .news-card {
+    display: flex;
+    margin-bottom: 23px;
 
-    & .news-aside {
-      flex: 0 0 100%;
-      display: flex;
-      margin-bottom: 23px;
+    & .news-img {
+      flex: 0 0 40%;
+      height: auto;
 
-      & .news-img {
-        flex: 0 0 40%;
-        height: auto;
-
-        & img {
-          display: block;
-          min-width: 100%;
-          height: 100%;
-        }
-      }
-
-      & .news-article {
-        padding: 16px;
-
-        & .title-link {
-          & h4 {
-            height: 40px;
-          }
-        }
-
-        & p {
-          height: 57px;
-        }
+      & img {
+        display: block;
+        min-width: 100%;
+        height: 100%;
       }
     }
 
-    & .news-list {
-      flex: 0 0 100%;
+    & .news-article {
+      padding: 16px;
 
-      & .news-item {
-        & .title-link h4 {
-          height: auto;
+      & .title-link {
+        & h4 {
+          height: 40px;
         }
+      }
 
-        & p {
-          height: auto;
-        }
+      & p {
+        height: 57px;
       }
     }
   }
 }
 
 @media (max-width: 767px) {
-  .news .news-aside {
+  .news-card {
     display: block;
     height: auto;
 
@@ -685,6 +665,33 @@
 
       & p {
         height: auto;
+      }
+    }
+  }
+}
+
+/*===== news =====*/
+
+@media (max-width: 1199px) {
+  .news {
+    justify-content: center;
+    flex-wrap: wrap;
+
+    & .news-card {
+      flex: 0 0 100%;
+    }
+
+    & .news-list {
+      flex: 0 0 100%;
+
+      & .news-item {
+        & .title-link h4 {
+          height: auto;
+        }
+
+        & p {
+          height: auto;
+        }
       }
     }
   }
@@ -712,6 +719,40 @@
       & .price {
         margin: 0 0 15px 0;
       }
+    }
+  }
+}
+
+/*===== stock-card =====*/
+
+@media (max-width: 767px) {
+  .stock-card {
+    flex-wrap: wrap;
+
+    & .stock-card-main {
+      flex: 0 0 100%;
+    }
+
+    & .stock-card-aside {
+      flex: 0 0 100%;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .stock-card {
+    & .stock-card-main .info-box {
+      padding: 15px;
+
+      & .video {
+        margin-right: 0;
+        width: 260px !important;
+        height: auto !important;
+      }
+    }
+
+    & .stock-card-aside {
+      padding: 15px;
     }
   }
 }
@@ -856,9 +897,45 @@
   }
 }
 
+/*===== news page =====*/
+
+@media (max-width: 1199px) {
+  .latest-news .news-card {
+    flex: 0 0 100%;
+  }
+}
+
+/*===== news archive page =====*/
+
+@media (min-width: 1200px) {
+  .news-archive-box .news-archive-list .news-card {
+    margin-right: 10px;
+    margin-bottom: 46px;
+
+    &:nth-last-child(3n + 1) {
+      margin-right: 0;
+    }
+
+    &:nth-last-child(-n + 3) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .news-archive-box .news-archive-list .news-card {
+    flex: 0 0 100%;
+    margin: 0 0 30px 0;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
 /*===== home page =====*/
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
   .advantage,
   .advantage-2 {
     & .advantage-img {
@@ -975,7 +1052,7 @@
 
 /*===== service page =====*/
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
   .advantage-service .advantage-img {
     height: 320px;
   }
