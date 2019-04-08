@@ -8619,6 +8619,7 @@ a:hover {
 	padding: 0 2%;
 	position: fixed;
 	z-index: 10;
+	transition: 0s;
 }
 
 .header .header-info {
@@ -11944,6 +11945,7 @@ a:hover {
 body.sticky-header .header {
 	height: 70px;
 	background-color: rgba(10, 10, 10, 0.7);
+	transition: 0.5s;
 }
 
 body.sticky-header .header .header-info .logo {

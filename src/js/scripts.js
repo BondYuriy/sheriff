@@ -79,11 +79,11 @@ new WOW().init();
 
 $(document).ready(function() {
   $(".button a").click(function() {
-    $(".header-black").toggleClass("header-transparent");
     $(".nav-box nav").fadeToggle(200);
     $(".dropdown").fadeToggle(200);
     $(".header-options").toggleClass("mr-80");
     $(".overlay").fadeToggle(200);
+    $(".header-black").toggleClass("header-transparent");
     $(this)
       .toggleClass("btn-open")
       .toggleClass("btn-close");

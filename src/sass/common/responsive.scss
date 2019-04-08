@@ -107,6 +107,7 @@
     .header {
       height: 70px;
       background-color: rgba(10, 10, 10, 0.7);
+      transition: 0.5s;
 
       & .header-info {
         & .logo {
