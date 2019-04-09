@@ -13521,21 +13521,66 @@ body.sticky-header .header {
 
 @media (max-width: 575px) {
 
-.header-box .logo {
-	flex: 0 0 55%;
+.header .header-info .header-contact .phone-info {
+	font-size: 8px;
 }
 
-.header-box .navigations {
-	flex: 0 0 30%;
+.header .header-info .header-contact .phone {
+	font-size: 16px;
+	line-height: 24px;
 }
 
-.header-box .navigations .navbar {
-	flex: 0 0 50%;
-	padding: 1px;
+.header .header-info .header-contact .phone strong {
+	font-size: 16px;
 }
 
-.header-box .navigations .registration {
-	flex: 0 0 37px;
+.header .header-info .separator {
+	margin: 0 10px 0 10px;
+}
+
+.header .nav-box .dropdown {
+	width: 0 !important;
+	height: 0 !important;
+	position: absolute;
+	left: -9999px;
+}
+
+.header .nav-box .header-options {
+	margin-right: 60px;
+}
+
+.header .nav-box .header-options .search {
+	display: none;
+}
+
+.button {
+	width: 45px;
+	height: 45px;
+}
+
+.header-main .video-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-main .video-box video {
+	width: auto;
+	height: 300px;
+}
+
+.header-main .header-main-info {
+	padding-top: 40px;
+}
+
+.header-main .header-main-info h1 {
+	font-size: 17px;
+	line-height: 26px;
+}
+
+.header-main .header-main-info h1 strong {
+	font-size: 14px;
+	line-height: 26px;
 }
 
 .category-title {
