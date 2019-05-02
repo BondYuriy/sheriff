@@ -48,6 +48,7 @@
 
     & .stock-noactive-article {
       padding: 19px 15px 30px 15px;
+      background-color: $white;
 
       & .title-link {
         display: block;
@@ -64,7 +65,6 @@
 
         &:hover h4 {
           color: $black-color;
-          font-weight: $Medium;
         }
       }
 

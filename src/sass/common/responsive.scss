@@ -1106,6 +1106,23 @@
 
 /*===== service page =====*/
 
+@media (min-width: 1200px) {
+  .list-questions .list-questions-item {
+    margin-right: 2%;
+    margin-bottom: 31px;
+
+    &:nth-last-child(2n + 2) {
+      margin-right: 0;
+    }
+
+    &:nth-last-child(-n + 2) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+/*===== service page =====*/
+
 @media (max-width: 1199px) {
   .advantage-service .advantage-img {
     height: 320px;
