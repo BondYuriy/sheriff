@@ -102,3 +102,39 @@ $(document).ready(function() {
 // });
 
 //===========================================
+
+$(".btn-toggle").click(function() {
+  $(this)
+    .prev(".toggle-block")
+    .toggleClass("show-list");
+});
+
+//===========================================
+
+$(".btn-show").click(function() {
+  $(this)
+    .addClass("hidden")
+    .prev(".toggle-block")
+    .addClass("show-list");
+
+  $(this)
+    .next(".btn-less")
+    .removeClass("hidden");
+
+  $(this)
+    .parent(".text-wrapper")
+    .addClass("show-position");
+});
+
+$(".btn-less").click(function() {
+  $(this)
+    .addClass("hidden")
+    .prev(".btn-show")
+    .removeClass("hidden")
+    .prev(".toggle-block")
+    .removeClass("show-list");
+
+  $(this)
+    .parent(".text-wrapper")
+    .removeClass("show-position");
+});

@@ -9573,18 +9573,40 @@ a:hover {
 	flex: 0 0 65%;
 }
 
-.service-item-box .info-box .info p {
+.service-item-box .info-box .info .text {
 	font-size: 13px;
+	max-height: 63px;
+	overflow: hidden;
+	transition: 2s;
 }
 
-.service-item-box .info-box .info a {
+.service-item-box .info-box .info .btn {
 	display: inline-block;
 	color: #d8c300;
 	font-size: 13px;
 	font-weight: 500;
 	padding-bottom: 3px;
 	border-bottom: 1px solid #d8c300;
-	margin-bottom: 40px;
+	margin: 10px 0 40px 0;
+}
+
+.service-item-box .info-box .info .toggle-block {
+	position: relative;
+}
+
+.service-item-box .info-box .info .toggle-block::after {
+	display: block;
+	content: "";
+	width: 100%;
+	height: 15px;
+	background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50%, white 100%);
+	position: absolute;
+	bottom: 0;
+}
+
+.service-item-box .info-box .info .show-list {
+	max-height: 2000px;
+	transition: 4s;
 }
 
 .service-item-box .info-box .info ul li {
@@ -9716,20 +9738,27 @@ a:hover {
 	flex: 0 0 49%;
 	height: 200px;
 	background-color: #fff;
+	position: relative;
+}
+
+.list-questions .list-questions-item .text-wrapper {
+	width: 100%;
+	min-height: 200px;
+	background-color: #fff;
 	padding: 33px 0 19px 0;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
 }
 
-.list-questions .list-questions-item:hover {
+.list-questions .list-questions-item .text-wrapper:hover {
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.list-questions .list-questions-item .title-box {
+.list-questions .list-questions-item .text-wrapper .title-box {
 	display: flex;
 	padding-left: 30px;
 }
 
-.list-questions .list-questions-item .title-box .num {
+.list-questions .list-questions-item .text-wrapper .title-box .num {
 	flex: 0 0 28px;
 	height: 28px;
 	border-radius: 50%;
@@ -9742,7 +9771,7 @@ a:hover {
 	margin-right: 19px;
 }
 
-.list-questions .list-questions-item .title-box .title {
+.list-questions .list-questions-item .text-wrapper .title-box .title {
 	height: 36px;
 	color: #0f0f0f;
 	font-size: 17px;
@@ -9751,20 +9780,40 @@ a:hover {
 	line-height: 18px;
 }
 
-.list-questions .list-questions-item .text {
-	height: 80px;
+.list-questions .list-questions-item .text-wrapper .text {
 	font-size: 13px;
 	line-height: 20px;
-	overflow: hidden;
 	padding-left: 30px;
+	max-height: 65px;
+	overflow: hidden;
 }
 
-.list-questions .list-questions-item .btn {
+.list-questions .list-questions-item .text-wrapper .btn {
 	color: #d8c300;
 	font-size: 13px;
 	font-weight: 500;
 	border-bottom: 1px solid #d8c300;
-	margin: 11px 0 0 30px;
+	margin: 15px 0 0 30px;
+}
+
+.list-questions .list-questions-item .text-wrapper .toggle-block {
+	position: relative;
+}
+
+.list-questions .list-questions-item .text-wrapper .toggle-block::after {
+	display: block;
+	content: "";
+	width: 100%;
+	height: 15px;
+	background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50%, white 100%);
+	position: absolute;
+	bottom: 0;
+}
+
+.list-questions .list-questions-item .text-wrapper .show-list {
+	max-height: 5000px;
+	transition: 4s;
+	z-index: 5;
 }
 
 .species {
@@ -9773,9 +9822,15 @@ a:hover {
 }
 
 .species .species-article .text {
-	height: 258px;
+	max-height: 265px;
 	overflow: hidden;
+	transition: 1s;
 	margin-bottom: 33px;
+	padding-bottom: 20px;
+}
+
+.species .species-article .text ul {
+	margin-bottom: 16px;
 }
 
 .species .species-article .text ul li {
@@ -9797,11 +9852,44 @@ a:hover {
 	transform: translateY(-50%);
 }
 
-.species .btn {
+.species .species-article .text h4 {
+	font-size: 19px;
+	font-weight: 700;
+}
+
+.species .species-article .btn {
 	color: #d8c300;
 	font-size: 13px;
 	font-weight: 500;
 	border-bottom: 1px solid #d8c300;
+}
+
+.species .species-article .toggle-block {
+	position: relative;
+}
+
+.species .species-article .toggle-block::after {
+	display: block;
+	content: "";
+	width: 100%;
+	height: 15px;
+	background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50%, white 100%);
+	position: absolute;
+	bottom: 0;
+}
+
+.species .species-article .show-list {
+	max-height: 5000px;
+	transition: 4s;
+}
+
+.hidden {
+	display: none;
+}
+
+.show-position {
+	position: absolute;
+	z-index: 5;
 }
 
 /* === heeader === */
@@ -9838,7 +9926,7 @@ a:hover {
 
 /*===== home page =====*/
 
-/*===== service page =====*/
+/*===== service-item page =====*/
 
 /*===== service page =====*/
 
