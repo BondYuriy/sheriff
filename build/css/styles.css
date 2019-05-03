@@ -7029,6 +7029,17 @@ a:hover {
 	color: #fff;
 }
 
+.stickier-sales-small {
+	height: 22px;
+	padding: 0 8px;
+	background-color: #fa5f60;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 22px;
+}
+
 .video-box video {
 	display: block;
 	width: 100%;
@@ -9684,6 +9695,10 @@ a:hover {
 	font-weight: 500;
 }
 
+.service-item-box .price-box .price-item .price-info .title-box .stickier {
+	margin-left: 10px;
+}
+
 .service-item-box .price-box .price-item .price {
 	text-align: center;
 }
@@ -11611,6 +11626,19 @@ a:hover {
 	text-align: center !important;
 }
 
+.list-questions .list-questions-item {
+	margin-right: 2%;
+	margin-bottom: 31px;
+}
+
+.list-questions .list-questions-item:nth-last-child(2n + 2) {
+	margin-right: 0;
+}
+
+.list-questions .list-questions-item:nth-last-child(-n + 2) {
+	margin-bottom: 0;
+}
+
 }
 
 @media (min-width: 992px) {
@@ -13119,19 +13147,6 @@ body.sticky-header .header .header-info .header-contact .phone {
 	margin-bottom: 0;
 }
 
-.list-questions .list-questions-item {
-	margin-right: 2%;
-	margin-bottom: 31px;
-}
-
-.list-questions .list-questions-item:nth-last-child(2n + 2) {
-	margin-right: 0;
-}
-
-.list-questions .list-questions-item:nth-last-child(-n + 2) {
-	margin-bottom: 0;
-}
-
 }
 
 @media (max-width: 1440px) {
@@ -13377,6 +13392,19 @@ body.sticky-header .header .header-info .header-contact .phone {
 	display: block;
 	width: 48%;
 	height: auto;
+}
+
+.service-item-box .info-box .options {
+	flex: 0 0 35%;
+}
+
+.service-item-box .info-box .info {
+	flex: 0 0 60%;
+}
+
+.service-item-box .price-box .price-item .price-info {
+	flex: 0 0 45%;
+	font-size: 13px;
 }
 
 .advantage-service .advantage-img {
@@ -13667,6 +13695,36 @@ body.sticky-header .header {
 	margin-bottom: 20px;
 }
 
+.service-item-box .info-box {
+	flex-direction: column;
+	align-items: center;
+}
+
+.service-item-box .info-box .options {
+	margin-bottom: 40px;
+}
+
+.service-item-box .price-box .price-item {
+	flex-wrap: wrap;
+	margin-bottom: 60px;
+}
+
+.service-item-box .price-box .price-item .price-info {
+	flex: 0 0 100%;
+}
+
+.stock-noactive-box .stock-noactive .stock-noactive-list {
+	justify-content: center;
+}
+
+.stock-noactive-box .stock-noactive .stock-noactive-list .stock-noactive-item {
+	margin-bottom: 53px;
+}
+
+.stock-noactive-box .stock-noactive .stock-noactive-list .stock-noactive-item:last-child {
+	margin-bottom: 0;
+}
+
 .advantage-service {
 	flex-direction: column;
 }
@@ -13861,24 +13919,24 @@ body.sticky-header .header {
 	margin-right: 0;
 }
 
+.stock-noactive .stock-noactive-list .stock-noactive-item:nth-child(2n + 1) {
+	margin-right: 0;
+}
+
+.stock-noactive .stock-noactive-list .stock-noactive-item:nth-last-child(-n + 2) {
+	margin-bottom: 30px;
+}
+
+.stock-noactive .stock-noactive-list .stock-noactive-item:nth-last-child(-n + 1) {
+	margin-bottom: 0;
+}
+
 .stock-noactive .stock-noactive-list .stock-noactive-item .stock-noactive-img {
 	height: auto;
 }
 
 .stock-noactive .stock-noactive-list .stock-noactive-item .stock-noactive-img img {
 	height: auto;
-}
-
-.stock-noactive .stock-noactive-list .stock-noactive-item .stock-noactive-img:nth-child(2n + 1) {
-	margin-right: 0;
-}
-
-.stock-noactive .stock-noactive-list .stock-noactive-item .stock-noactive-img:nth-last-child(-n + 2) {
-	margin-bottom: 30px;
-}
-
-.stock-noactive .stock-noactive-list .stock-noactive-item .stock-noactive-img:nth-last-child(-n + 1) {
-	margin-bottom: 0;
 }
 
 .stock-noactive .stock-noactive-list .stock-noactive-item .stock-noactive-article .title-link h4 {
@@ -13903,6 +13961,15 @@ body.sticky-header .header {
 .advantage-2 .advantage-img .round-background {
 	right: 40px;
 	top: -75px;
+}
+
+.list-questions .list-questions-item {
+	flex: 0 0 100%;
+	margin-bottom: 31px;
+}
+
+.list-questions .list-questions-item:last-child {
+	margin-bottom: 0;
 }
 
 .advantage-service .advantage-img {
@@ -14098,6 +14165,23 @@ body.sticky-header .header {
 .advantage-2 .advantage-img .round-background {
 	right: 25px;
 	top: -75px;
+}
+
+.service-item-box .price-box {
+	padding: 30px 15px;
+}
+
+.service-item-box .price-box .price-item .btn {
+	margin: 20px auto 0 auto;
+}
+
+.list-questions .list-questions-item .text-wrapper .title-box,
+.list-questions .list-questions-item .text-wrapper .text {
+	padding-left: 15px;
+}
+
+.list-questions .list-questions-item .text-wrapper .btn {
+	margin-left: 15px;
 }
 
 .advantage-service .advantage-img {

@@ -187,3 +187,14 @@
     color: $white-color;
   }
 }
+
+.stickier-sales-small {
+  height: 22px;
+  padding: 0 8px;
+  background-color: $red-color;
+  border-radius: 5px;
+  color: $white-color;
+  font-size: 12px;
+  font-weight: $bold;
+  line-height: 22px;
+}

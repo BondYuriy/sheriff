@@ -851,23 +851,23 @@
       flex: 0 0 100%;
       margin-right: 0;
 
+      &:nth-child(2n + 1) {
+        margin-right: 0;
+      }
+
+      &:nth-last-child(-n + 2) {
+        margin-bottom: 30px;
+      }
+
+      &:nth-last-child(-n + 1) {
+        margin-bottom: 0;
+      }
+
       & .stock-noactive-img {
         height: auto;
 
         & img {
           height: auto;
-        }
-
-        &:nth-child(2n + 1) {
-          margin-right: 0;
-        }
-
-        &:nth-last-child(-n + 2) {
-          margin-bottom: 30px;
-        }
-
-        &:nth-last-child(-n + 1) {
-          margin-bottom: 0;
         }
       }
 
@@ -1106,7 +1106,60 @@
 
 /*===== service-item page =====*/
 
-@media (min-width: 1200px) {
+@media (max-width: 1199px) {
+  .service-item-box {
+    & .info-box {
+      & .options {
+        flex: 0 0 35%;
+      }
+
+      & .info {
+        flex: 0 0 60%;
+      }
+    }
+
+    & .price-box .price-item .price-info {
+      flex: 0 0 45%;
+      font-size: 13px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .service-item-box {
+    & .info-box {
+      flex-direction: column;
+      align-items: center;
+
+      & .options {
+        margin-bottom: 40px;
+      }
+    }
+
+    & .price-box .price-item {
+      flex-wrap: wrap;
+      margin-bottom: 60px;
+
+      & .price-info {
+        flex: 0 0 100%;
+      }
+    }
+  }
+
+  .stock-noactive-box .stock-noactive .stock-noactive-list {
+    justify-content: center;
+
+    & .stock-noactive-item {
+      margin-bottom: 53px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
   .list-questions .list-questions-item {
     margin-right: 2%;
     margin-bottom: 31px;
@@ -1117,6 +1170,38 @@
 
     &:nth-last-child(-n + 2) {
       margin-bottom: 0;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .list-questions .list-questions-item {
+    flex: 0 0 100%;
+    margin-bottom: 31px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .service-item-box .price-box {
+    padding: 30px 15px;
+
+    & .price-item .btn {
+      margin: 20px auto 0 auto;
+    }
+  }
+
+  .list-questions .list-questions-item .text-wrapper {
+    & .title-box,
+    .text {
+      padding-left: 15px;
+    }
+
+    & .btn {
+      margin-left: 15px;
     }
   }
 }
