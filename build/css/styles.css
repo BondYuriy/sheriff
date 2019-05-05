@@ -9554,13 +9554,10 @@ a:hover {
 	height: auto;
 }
 
-.service-item-box .info-box .options .title {
+.service-item-box .info-box .options .btn-yellow-small {
 	display: block;
-	color: #000;
-	font-size: 13px;
-	font-weight: 700;
-	text-align: center;
-	margin-bottom: 33px;
+	width: 229px;
+	margin: 0 auto 33px auto;
 }
 
 .service-item-box .info-box .options .btn {

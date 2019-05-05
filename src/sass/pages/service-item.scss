@@ -39,13 +39,10 @@
         }
       }
 
-      & .title {
+      & .btn-yellow-small {
         display: block;
-        color: $black-color;
-        font-size: 13px;
-        font-weight: $bold;
-        text-align: center;
-        margin-bottom: 33px;
+        width: 229px;
+        margin: 0 auto 33px auto;
       }
 
       & .btn {
