@@ -167,7 +167,7 @@
                 display: inline-block;
                 counter-increment: title;
                 content: "" counter(title) "";
-                width: 32px;
+                flex: 0 0 32px;
                 height: 32px;
                 border-radius: 50%;
                 background-color: $yellow-color;

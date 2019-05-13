@@ -7989,7 +7989,7 @@ a:hover {
 	display: inline-block;
 	counter-increment: title;
 	content: "" counter(title) "";
-	width: 32px;
+	flex: 0 0 32px;
 	height: 32px;
 	border-radius: 50%;
 	background-color: #ffe600;
@@ -9919,6 +9919,10 @@ a:hover {
 /*===== data-box =====*/
 
 /*===== feedbeck =====*/
+
+/*===== modal-order =====*/
+
+/*===== modal-order =====*/
 
 /*===== news-card =====*/
 
@@ -13305,6 +13309,16 @@ body.sticky-header .header .header-info .header-contact .phone {
 	flex: 0 0 100%;
 }
 
+.modal .modal-dialog .modal-content {
+	width: 95%;
+	margin: auto;
+}
+
+.modal .modal-dialog .modal-content .order-box .order-main form {
+	width: 100%;
+	counter-reset: title;
+}
+
 .news-card {
 	display: flex;
 	margin-bottom: 23px;
@@ -13597,6 +13611,28 @@ body.sticky-header .header {
 	margin-top: 20px;
 }
 
+.modal .modal-dialog .modal-content .order-box {
+	flex-direction: column;
+}
+
+.modal .modal-dialog .modal-content .order-box .order-aside {
+	padding: 30px 0 30px 0;
+	border-radius: 12px 12px 0 0;
+}
+
+.modal .modal-dialog .modal-content .order-box .order-aside .order-logo {
+	width: 150px;
+	margin: 0 auto 50px auto;
+}
+
+.modal .modal-dialog .modal-content .order-box .order-aside .order-carousel {
+	display: none;
+}
+
+.modal .modal-dialog .modal-content .order-box .order-main {
+	padding: 40px;
+}
+
 .stock-noactive {
 	padding-bottom: 30px;
 }
@@ -13872,6 +13908,18 @@ body.sticky-header .header {
 	margin-top: 0;
 }
 
+.modal .modal-dialog .modal-content .order-box .order-main form .order-radio:nth-child(-n + 3) {
+	margin-right: 10px;
+}
+
+.modal-final .modal-dialog .modal-content .order-final-box {
+	padding: 30px 0 30px 0;
+}
+
+.modal-final .modal-dialog .modal-content .order-final-box .sales-box .sales-img {
+	display: none;
+}
+
 .news-card {
 	display: block;
 	height: auto;
@@ -14098,6 +14146,83 @@ body.sticky-header .header {
 
 .data-box .btn-yellow {
 	right: 15px;
+}
+
+.modal .modal-dialog .modal-content .order-box {
+	flex-direction: column;
+}
+
+.modal .modal-dialog .modal-content .order-box .order-aside {
+	padding: 30px 0 30px 0;
+	border-radius: 12px 12px 0 0;
+}
+
+.modal .modal-dialog .modal-content .order-box .order-aside .order-logo {
+	width: 100px;
+	margin: 0 auto 30px auto;
+}
+
+.modal .modal-dialog .modal-content .order-box .order-aside .order-carousel {
+	display: none;
+}
+
+.modal .modal-dialog .modal-content .order-box .order-aside .phone {
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 38px;
+}
+
+.modal .modal-dialog .modal-content .order-box .order-main {
+	padding: 20px;
+}
+
+.modal .modal-dialog .modal-content .order-box .order-main form .order-radio {
+	width: 100%;
+	margin: 0 0 15px 0;
+}
+
+.modal .modal-dialog .modal-content .order-box .order-main form .order-radio:nth-child(-n + 3) {
+	margin-right: 0;
+}
+
+.modal .modal-dialog .modal-content .order-box .order-main form .order-radio .order-radio-label {
+	width: 100%;
+}
+
+.modal .modal-dialog .modal-content .order-box .order-main form .order-radio .order-radio-label .radio-wrapper {
+	width: 100%;
+	height: 120px;
+}
+
+.modal .modal-dialog .modal-content .order-box .order-main form .order-select select {
+	padding-left: 50px;
+}
+
+.modal .modal-dialog .modal-content .order-box .order-main form .form-group-contact .form-control {
+	padding-left: 50px;
+}
+
+.modal-final .modal-dialog .modal-content .order-final-box .order-logo {
+	width: 100px;
+	height: auto;
+	margin: 0 auto 30px auto;
+}
+
+.modal-final .modal-dialog .modal-content .order-final-box .feedbeck-info {
+	margin-bottom: 20px;
+}
+
+.modal-final .modal-dialog .modal-content .order-final-box .feedbeck-info .title {
+	font-size: 20px;
+}
+
+.modal-final .modal-dialog .modal-content .order-final-box .sales-box {
+	margin-bottom: 20px;
+}
+
+.modal-final .modal-dialog .modal-content .order-final-box .contact-box .phone {
+	font-size: 30px;
+	line-height: 38px;
 }
 
 .service-card .service-card-main .title h4 {
