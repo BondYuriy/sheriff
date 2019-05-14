@@ -7813,22 +7813,22 @@ a:hover {
 	margin: auto;
 }
 
-.modal {
+.modal-order {
 	background-color: rgba(20, 20, 20, 0.97);
 }
 
-.modal .modal-dialog {
+.modal-order .modal-dialog {
 	max-width: 1100px;
 	overflow: hidden;
 }
 
-.modal .modal-dialog .modal-content {
+.modal-order .modal-dialog .modal-content {
 	padding: 0;
 	border-radius: 15px;
 	background-color: #fff;
 }
 
-.modal .modal-dialog .modal-content .close {
+.modal-order .modal-dialog .modal-content .close {
 	padding: 0;
 	text-shadow: none;
 	display: block;
@@ -7847,11 +7847,11 @@ a:hover {
 	top: 13px;
 }
 
-.modal .modal-dialog .modal-content .order-box {
+.modal-order .modal-dialog .modal-content .order-box {
 	display: flex;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-aside {
+.modal-order .modal-dialog .modal-content .order-box .order-aside {
 	flex: 0 0 35%;
 	background-color: #313131;
 	border-radius: 12px 0 0 12px;
@@ -7860,42 +7860,42 @@ a:hover {
 	position: relative;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-aside .order-bi {
+.modal-order .modal-dialog .modal-content .order-box .order-aside .order-bi {
 	width: 100%;
 	height: auto;
 	position: absolute;
 	bottom: 0;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-aside .order-bi img {
+.modal-order .modal-dialog .modal-content .order-box .order-aside .order-bi img {
 	display: block;
 	width: 100%;
 	height: auto;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-aside .order-logo {
+.modal-order .modal-dialog .modal-content .order-box .order-aside .order-logo {
 	width: 36%;
 	height: auto;
 	margin: 0 auto 80px auto;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-aside .order-logo img {
+.modal-order .modal-dialog .modal-content .order-box .order-aside .order-logo img {
 	display: block;
 	width: 100%;
 	height: auto;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-aside .order-carousel {
+.modal-order .modal-dialog .modal-content .order-box .order-aside .order-carousel {
 	width: 320px;
 	margin: 0 auto 100px auto;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-aside .order-carousel .item {
+.modal-order .modal-dialog .modal-content .order-box .order-aside .order-carousel .item {
 	text-align: center;
 	padding-bottom: 14px;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-aside .order-carousel .item .btn-stiker {
+.modal-order .modal-dialog .modal-content .order-box .order-aside .order-carousel .item .btn-stiker {
 	display: block;
 	width: 54px;
 	margin: 0 auto 10px auto;
@@ -7906,7 +7906,7 @@ a:hover {
 	line-height: 24px;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-aside .order-carousel .item .title {
+.modal-order .modal-dialog .modal-content .order-box .order-aside .order-carousel .item .title {
 	display: block;
 	color: #fff;
 	font-size: 18px;
@@ -7915,16 +7915,16 @@ a:hover {
 	margin-bottom: 14px;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-aside .order-carousel .item p:last-child {
+.modal-order .modal-dialog .modal-content .order-box .order-aside .order-carousel .item p:last-child {
 	margin-bottom: 0;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-aside .order-carousel .owl-dots {
+.modal-order .modal-dialog .modal-content .order-box .order-aside .order-carousel .owl-dots {
 	display: flex;
 	justify-content: center;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-aside .order-carousel .owl-dots .owl-dot {
+.modal-order .modal-dialog .modal-content .order-box .order-aside .order-carousel .owl-dots .owl-dot {
 	width: 12px;
 	height: 12px;
 	border-radius: 50%;
@@ -7932,15 +7932,15 @@ a:hover {
 	margin-right: 4px;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-aside .order-carousel .owl-dots .owl-dot:last-child {
+.modal-order .modal-dialog .modal-content .order-box .order-aside .order-carousel .owl-dots .owl-dot:last-child {
 	margin-right: 0;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-aside .order-carousel .owl-dots .active {
+.modal-order .modal-dialog .modal-content .order-box .order-aside .order-carousel .owl-dots .active {
 	background-color: #ffe600;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-aside .title {
+.modal-order .modal-dialog .modal-content .order-box .order-aside .title {
 	display: block;
 	color: #fff;
 	font-size: 15px;
@@ -7948,7 +7948,7 @@ a:hover {
 	margin-bottom: 8px;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-aside .phone {
+.modal-order .modal-dialog .modal-content .order-box .order-aside .phone {
 	display: block;
 	color: #ffe600;
 	font-size: 39px;
@@ -7956,27 +7956,27 @@ a:hover {
 	line-height: 42px;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-aside .phone strong {
+.modal-order .modal-dialog .modal-content .order-box .order-aside .phone strong {
 	font-weight: 700;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-aside .text {
+.modal-order .modal-dialog .modal-content .order-box .order-aside .text {
 	color: #ffe600;
 	font-size: 18px;
 	font-weight: 400;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-main {
+.modal-order .modal-dialog .modal-content .order-box .order-main {
 	flex: 0 0 60%;
 	padding: 65px 0 20px 70px;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-main form {
+.modal-order .modal-dialog .modal-content .order-box .order-main form {
 	width: 80%;
 	counter-reset: title;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-main form h4 {
+.modal-order .modal-dialog .modal-content .order-box .order-main form h4 {
 	color: #141414;
 	font-size: 20px;
 	font-weight: 400;
@@ -7985,7 +7985,7 @@ a:hover {
 	margin-bottom: 25px;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-main form h4::before {
+.modal-order .modal-dialog .modal-content .order-box .order-main form h4::before {
 	display: inline-block;
 	counter-increment: title;
 	content: "" counter(title) "";
@@ -8001,15 +8001,15 @@ a:hover {
 	line-height: 32px;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-main form .order-radio {
+.modal-order .modal-dialog .modal-content .order-box .order-main form .order-radio {
 	margin: 0;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-main form .order-radio:nth-child(-n + 3) {
+.modal-order .modal-dialog .modal-content .order-box .order-main form .order-radio:nth-child(-n + 3) {
 	margin-right: 36px;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-main form .order-radio .order-radio-label .radio-wrapper {
+.modal-order .modal-dialog .modal-content .order-box .order-main form .order-radio .order-radio-label .radio-wrapper {
 	width: 130px;
 	height: 140px;
 	border-radius: 15px;
@@ -8017,7 +8017,7 @@ a:hover {
 	position: relative;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-main form .order-radio .order-radio-label .radio-wrapper .radio-info {
+.modal-order .modal-dialog .modal-content .order-box .order-main form .order-radio .order-radio-label .radio-wrapper .radio-info {
 	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
 	border-radius: 10px;
 	background-color: #ffffff;
@@ -8033,19 +8033,19 @@ a:hover {
 	text-align: center;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-main form .order-radio .order-radio-label .radio-wrapper .radio-info .radio-img {
+.modal-order .modal-dialog .modal-content .order-box .order-main form .order-radio .order-radio-label .radio-wrapper .radio-info .radio-img {
 	height: 50px;
 	overflow: hidden;
 	margin-bottom: 13px;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-main form .order-radio .order-radio-label .radio-wrapper .radio-info .radio-img img {
+.modal-order .modal-dialog .modal-content .order-box .order-main form .order-radio .order-radio-label .radio-wrapper .radio-info .radio-img img {
 	display: block;
 	height: 50px;
 	width: auto;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-main form .order-radio .order-radio-label .radio-wrapper .radio-info span {
+.modal-order .modal-dialog .modal-content .order-box .order-main form .order-radio .order-radio-label .radio-wrapper .radio-info span {
 	display: block;
 	color: #141414;
 	font-size: 14px;
@@ -8053,21 +8053,21 @@ a:hover {
 	line-height: 18px;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-main form .order-radio input[type="radio"] {
+.modal-order .modal-dialog .modal-content .order-box .order-main form .order-radio input[type="radio"] {
 	margin: 0;
 	width: 0;
 	height: 0;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-main form .order-radio input[type="radio"]:checked + .order-radio-label > .radio-wrapper {
+.modal-order .modal-dialog .modal-content .order-box .order-main form .order-radio input[type="radio"]:checked + .order-radio-label > .radio-wrapper {
 	background-color: #ffe600;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-main form .order-select {
+.modal-order .modal-dialog .modal-content .order-box .order-main form .order-select {
 	position: relative;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-main form .order-select label {
+.modal-order .modal-dialog .modal-content .order-box .order-main form .order-select label {
 	position: absolute;
 	left: 20px;
 	top: 50%;
@@ -8075,7 +8075,7 @@ a:hover {
 	transform: translateY(-50%);
 }
 
-.modal .modal-dialog .modal-content .order-box .order-main form .order-select select {
+.modal-order .modal-dialog .modal-content .order-box .order-main form .order-select select {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
@@ -8091,19 +8091,19 @@ a:hover {
 	line-height: 22px;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-main form .order-select select:focus {
+.modal-order .modal-dialog .modal-content .order-box .order-main form .order-select select:focus {
 	box-shadow: none;
 	border: 5px solid #ffe600;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-main form .order-check {
+.modal-order .modal-dialog .modal-content .order-box .order-main form .order-check {
 	padding: 0;
 	display: flex;
 	align-items: center;
 	margin-bottom: 70px;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-main form .order-check .form-check-input {
+.modal-order .modal-dialog .modal-content .order-box .order-main form .order-check .form-check-input {
 	border: none;
 	-webkit-appearance: none;
 	-moz-appearance: none;
@@ -8122,7 +8122,7 @@ a:hover {
 	margin-right: 20px;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-main form .order-check .form-check-input:checked::before {
+.modal-order .modal-dialog .modal-content .order-box .order-main form .order-check .form-check-input:checked::before {
 	display: inline-block;
 	content: "";
 	width: 20px;
@@ -8137,11 +8137,11 @@ a:hover {
 	transform: translate(-50%, -50%);
 }
 
-.modal .modal-dialog .modal-content .order-box .order-main form .form-group-contact {
+.modal-order .modal-dialog .modal-content .order-box .order-main form .form-group-contact {
 	position: relative;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-main form .form-group-contact label {
+.modal-order .modal-dialog .modal-content .order-box .order-main form .form-group-contact label {
 	position: absolute;
 	left: 20px;
 	top: 50%;
@@ -8149,7 +8149,7 @@ a:hover {
 	transform: translateY(-50%);
 }
 
-.modal .modal-dialog .modal-content .order-box .order-main form .form-group-contact .form-control {
+.modal-order .modal-dialog .modal-content .order-box .order-main form .form-group-contact .form-control {
 	border: 0;
 	padding: 0;
 	margin: 0;
@@ -8162,33 +8162,33 @@ a:hover {
 	margin-bottom: 30px;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-main form .form-group-contact .form-control::-webkit-input-placeholder {
+.modal-order .modal-dialog .modal-content .order-box .order-main form .form-group-contact .form-control::-webkit-input-placeholder {
 	color: #898989;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 22px;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-main form .form-group-contact .form-control::-ms-input-placeholder {
+.modal-order .modal-dialog .modal-content .order-box .order-main form .form-group-contact .form-control::-ms-input-placeholder {
 	color: #898989;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 22px;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-main form .form-group-contact .form-control::placeholder {
+.modal-order .modal-dialog .modal-content .order-box .order-main form .form-group-contact .form-control::placeholder {
 	color: #898989;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 22px;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-main form .form-group-contact .form-control:focus {
+.modal-order .modal-dialog .modal-content .order-box .order-main form .form-group-contact .form-control:focus {
 	box-shadow: none;
 	border: 5px solid #ffe600;
 }
 
-.modal .modal-dialog .modal-content .order-box .order-main form .btn-yellow-bulk {
+.modal-order .modal-dialog .modal-content .order-box .order-main form .btn-yellow-bulk {
 	margin-top: 20px;
 }
 
@@ -8224,6 +8224,7 @@ a:hover {
 	position: absolute;
 	right: 13px;
 	top: 13px;
+	z-index: 3;
 }
 
 .modal-final .modal-dialog .modal-content .order-final-box {
@@ -8340,6 +8341,180 @@ a:hover {
 	color: #ffe600;
 	font-size: 18px;
 	font-weight: 400;
+}
+
+.modal-search {
+	background-color: rgba(20, 20, 20, 0.97);
+}
+
+.modal-search .modal-dialog {
+	max-width: 800px;
+	overflow: hidden;
+}
+
+.modal-search .modal-dialog .modal-content {
+	width: 800px;
+	padding: 0;
+	border-radius: 15px;
+	background-color: #fff;
+}
+
+.modal-search .modal-dialog .modal-content .close {
+	padding: 0;
+	text-shadow: none;
+	display: block;
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+	background-color: #ffe600;
+	color: #000;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 55px;
+	text-align: center;
+	opacity: 1;
+	position: absolute;
+	right: 13px;
+	top: 13px;
+}
+
+.modal-search .modal-dialog .modal-content .search-box {
+	display: flex;
+}
+
+.modal-search .modal-dialog .modal-content .search-box .search-aside {
+	flex: 0 0 35%;
+	background-color: #313131;
+	border-radius: 12px 0 0 12px;
+	padding: 35px 0 35px 0;
+	text-align: center;
+	position: relative;
+}
+
+.modal-search .modal-dialog .modal-content .search-box .search-aside .search-bi {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	bottom: 0;
+}
+
+.modal-search .modal-dialog .modal-content .search-box .search-aside .search-bi img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.modal-search .modal-dialog .modal-content .search-box .search-aside .search-logo {
+	width: 100px;
+	height: auto;
+	margin: 0 auto 30px auto;
+}
+
+.modal-search .modal-dialog .modal-content .search-box .search-aside .search-logo img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.modal-search .modal-dialog .modal-content .search-box .search-aside .title {
+	display: block;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 400;
+	margin-bottom: 8px;
+}
+
+.modal-search .modal-dialog .modal-content .search-box .search-aside .phone {
+	display: block;
+	color: #ffe600;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 38px;
+}
+
+.modal-search .modal-dialog .modal-content .search-box .search-aside .phone strong {
+	font-weight: 700;
+}
+
+.modal-search .modal-dialog .modal-content .search-box .search-aside .text {
+	color: #ffe600;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.modal-search .modal-dialog .modal-content .search-box .search-main {
+	flex: 0 0 60%;
+	padding: 35px;
+}
+
+.modal-search .modal-dialog .modal-content .search-box .search-main form {
+	width: 95%;
+	counter-reset: title;
+}
+
+.modal-search .modal-dialog .modal-content .search-box .search-main form h4 {
+	color: #141414;
+	font-size: 20px;
+	font-weight: 400;
+	display: flex;
+	align-items: center;
+	margin-bottom: 25px;
+}
+
+.modal-search .modal-dialog .modal-content .search-box .search-main form .form-group-contact {
+	position: relative;
+}
+
+.modal-search .modal-dialog .modal-content .search-box .search-main form .form-group-contact label {
+	position: absolute;
+	left: 20px;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.modal-search .modal-dialog .modal-content .search-box .search-main form .form-group-contact .form-control {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	height: 48px;
+	width: 100%;
+	border-radius: 10px;
+	border: 5px solid #f2f0f0;
+	background-color: #ffffff;
+	padding-left: 20px;
+	color: #0f0f0f;
+	margin-bottom: 30px;
+}
+
+.modal-search .modal-dialog .modal-content .search-box .search-main form .form-group-contact .form-control::-webkit-input-placeholder {
+	color: #898989;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+}
+
+.modal-search .modal-dialog .modal-content .search-box .search-main form .form-group-contact .form-control::-ms-input-placeholder {
+	color: #898989;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+}
+
+.modal-search .modal-dialog .modal-content .search-box .search-main form .form-group-contact .form-control::placeholder {
+	color: #898989;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+}
+
+.modal-search .modal-dialog .modal-content .search-box .search-main form .form-group-contact .form-control:focus {
+	box-shadow: none;
+	border: 5px solid #ffe600;
+}
+
+.modal-search .modal-dialog .modal-content .search-box .search-main form .btn-yellow-bulk {
+	margin-top: 20px;
 }
 
 .service-card {

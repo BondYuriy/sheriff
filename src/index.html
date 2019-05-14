@@ -46,7 +46,7 @@
           </ul>
         </nav>
         <div class="header-options">
-          <a class="search" href="#">
+          <a class="search" href="#" data-toggle="modal" data-target="#order-search">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28"
               viewBox="0 0 28 28">
               <defs>
@@ -826,7 +826,7 @@
         </div>
       </div>
     </footer>
-    <div class="modal fade" id="order" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    <div class="modal modal-order fade" id="order" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
       aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
@@ -953,6 +953,7 @@
         </div>
       </div>
     </div>
+
     <div class="modal fade modal-final" id="order-final" tabindex="-1" role="dialog"
       aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
@@ -961,9 +962,6 @@
             <span aria-hidden="true">&times;</span>
           </a>
           <div class="order-final-box">
-            <!-- <div class="order-bi">
-                  <img src="#">
-                </div> -->
             <div class="order-logo">
               <img src="img/sheriff_logo.svg" alt="logo" />
             </div>
@@ -986,6 +984,42 @@
               <span class="title">Возникли вопросы?</span>
               <span class="phone"><strong>0 800</strong> 309 114</span>
               <span class="text">бесплатно</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal modal-search fade" id="order-search" tabindex="-1" role="dialog"
+      aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </a>
+          <div class="search-box">
+            <div class="search-aside">
+              <!-- <div class="order-bi">
+              <img src="#">
+            </div> -->
+              <div class="search-logo">
+                <img src="img/sheriff_logo.svg" alt="logo" />
+              </div>
+              <span class="title">Возникли вопросы?</span>
+              <span class="phone"><strong>0 800</strong> 309 114</span>
+              <span class="text">бесплатно</span>
+            </div>
+            <div class="search-main">
+              <form action="#">
+                <h4>Поиск:</h4>
+                <div class="form-group-contact">
+                  <label for="formGroupExampleInputSearch"></label>
+                  <input type="text" class="form-control" id="formGroupExampleInputSearch"
+                    placeholder="Что Вы ищите?" />
+                </div>
+                <input type="button" value="Поиск" class="btn-yellow-bulk" data-dismiss="modal" data-toggle="modal" />
+              </form>
             </div>
           </div>
         </div>
